@@ -1,0 +1,16 @@
+{
+  "TYDA": "/archive/lgy/TYDA",
+  "arch": [
+    "x86_64",
+    "x86_32",
+    "mips",
+    "arm32",
+    "aarch64"
+  ],
+  "opt": [
+    "O0",
+    "O1",
+    "O2",
+    "O3"
+  ]
+}
