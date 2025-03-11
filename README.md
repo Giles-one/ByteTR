@@ -3,7 +3,7 @@
 *ByteTR* is a framework designed for recovering variable types in binary code. It utilizes inter-procedural program analysis to construct variable semantic graphs and employs graph neural networks to restore variable types.
 
 <p align="center">
-  <img src="asserts/overview.png" alt="Example Image" width="90%" />
+  <img src="assets/overview.png" alt="Example Image" width="90%" />
 </p>
 
 ### Project
