@@ -10,7 +10,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def main():
-    ELFRoot = '/archive/lgy/TYDA/x86_64/O0'
+    ELFRoot = '/path/to/TYDA/x86_64/O0'
     ELFList = []
     for root, dirs, files in os.walk(ELFRoot):
         for file in files:

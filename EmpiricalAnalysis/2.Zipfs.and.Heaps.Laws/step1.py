@@ -1032,7 +1032,7 @@ def argParse():
     parser.add_argument(
         '--dir',
         type=str,
-        default='/archive/lgy/TYDA/demo/x86_64/O0/',
+        default='/path/to/TYDA/demo/x86_64/O0/',
         help="Root Directory."
     )
     parser.add_argument(
@@ -1048,8 +1048,7 @@ def argParse():
 
 def main(args):
     compatibility_init()
-
-    worker("/data/lgy/Projects/dataTypeInference/project/experiment/empiricalAnalysis/exp1/types")
+    worker("types")
     
 if __name__ == '__main__':
     args = argParse()

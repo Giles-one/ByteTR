@@ -66,7 +66,7 @@ def main():
     with open("ELF.json") as fp:
         ELFPathLists = json.load(fp)
     ELFPathLists = [
-        ELFPath.replace('/archive/lgy/TYDA/x86_64/O0/', '/dataset/')
+        ELFPath.replace('/path/to/TYDA/x86_64/O0/', '/dataset/')
         for ELFPath in ELFPathLists
     ]
     # breakpoint()

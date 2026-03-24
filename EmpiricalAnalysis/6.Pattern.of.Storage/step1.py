@@ -98,7 +98,7 @@ def main():
     ELFList = []
 
     OPTI = 'O3'
-    rawBinaryPath = f'/archive/lgy/TYDA/x86_64/{OPTI}'
+    rawBinaryPath = f'/path/to/TYDA/x86_64/{OPTI}'
     for root, dirs, files in os.walk(rawBinaryPath):
         for file in files:
             if not file.endswith('.var.json'):

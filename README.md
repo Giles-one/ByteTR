@@ -36,7 +36,7 @@ $ docker run \
     -v <TYDA_DATASET>:/dataset/ \
     -v $(pwd)/idascript:/idascript \
     --rm \
-    lgy/ida
+    docker/ida
 # cd /idascript && python launcher.py
 # exit
 $ python step1.py

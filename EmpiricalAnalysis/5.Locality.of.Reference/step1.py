@@ -39,7 +39,7 @@ def extractMemberRef(filePath):
         #     objectInfo = Ref['objectInfo']
     return Collect
 
-DATA_DIR = '/archive/lgy/TYDA/x86_64/O0'
+DATA_DIR = '/path/to/TYDA/x86_64/O0'
 if __name__ == '__main__':
     expResultList = getFilesBySuffix(DATA_DIR, '.ea.exp4.json')
     logger.info('[+] Found *.ea.lab2.json %d' % (len(expResultList)))

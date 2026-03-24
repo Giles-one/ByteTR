@@ -184,8 +184,7 @@ def speedup(ELFCollect):
 
 
 SAVT_TO  = 'result.jsonl'
-# DATA_DIR = '/data/lgy/Projects/dataTypeInference/project/experiment/empiricalAnalysis/exp2/demo'
-DATA_DIR = '/archive/lgy/TYDA/x86_64/O0'
+DATA_DIR = '/path/to/TYDA/x86_64/O0'
 
 def main():
     expResultList = getFilesBySuffix(DATA_DIR, '.ea.exp2.json')

@@ -21,7 +21,7 @@ def getFilesBySuffix(root, suffix):
             filePaths.append(os.path.join(root, file))
     return filePaths
 
-DATA_DIR = '/archive/lgy/TYDA/x86_64/O0'
+DATA_DIR = '/path/to/TYDA/x86_64/O0'
 
 def main():
     expResultList = getFilesBySuffix(DATA_DIR, '.ea.exp2.1.jsonl')

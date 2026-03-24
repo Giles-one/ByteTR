@@ -106,30 +106,6 @@ def parseType(typename, chain):
     return typename
 
 def dedup():
-    # ELFRoot = '/archive/lgy/TYDA/x86_64/O0'
-    # ELFList = []
-    # for root, dirs, files in os.walk(ELFRoot):
-    #     for file in files:
-    #         if not file.endswith('ea.exp1.jsonl'):
-    #             continue
-    #         filePath = os.path.join(root, file)
-    #         ELFList.append(filePath)
-    # logger.info('Found %d jsonl files.' % len(ELFList))
-
-    # typeCollect = []
-    # for filePath in tqdm.tqdm(ELFList):
-    #     with open(filePath) as fp:
-    #         for line in fp:
-    #             item = json.loads(line)
-    #             variableList = list()
-    #             variableList.extend(item.get('variable'))
-    #             variableList.extend(item.get('parameter'))
-    #             for var in variableList:
-    #                 typeCollect.append({'typename': var.get('DW_AT_type'), 'chain': var.get('DW_AT_type_chain')})
-    # logger.info('Found %d variable.' % len(typeCollect))
-    # with open("dedup.json", 'w') as fp:
-    #     json.dump(typeCollect, fp)
-
     with open("dedup.json") as fp:
         typeCollect = json.load(fp)
 
@@ -147,7 +123,7 @@ def dedup():
         json.dump(sortedTypeSummary, fp, indent=2)
 
 def zipsLaw():
-    ELFRoot = '/archive/lgy/TYDA/x86_64/O0'
+    ELFRoot = '/path/to/TYDA/x86_64/O0'
     ELFList = []
     for root, dirs, files in os.walk(ELFRoot):
         for file in files:

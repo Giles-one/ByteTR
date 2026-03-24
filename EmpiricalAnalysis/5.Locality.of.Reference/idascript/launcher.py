@@ -66,7 +66,7 @@ def main():
     with open("ELF.json") as fp:
         ELFPathLists = json.load(fp)
     ELFPathLists = [
-        ELFPath.replace('/archive/lgy/TYDA/x86_64/O0/', '/dataset/')
+        ELFPath.replace('/path/to/TYDA/x86_64/O0/', '/dataset/')
         for ELFPath in ELFPathLists
     ]
     # breakpoint()
@@ -105,8 +105,8 @@ if __name__ == '__main__':
 '''
 docker run \
     -dt \
-    -v /archive/lgy/TYDA/x86_64/O0/:/dataset/ \
+    -v /path/to/TYDA/x86_64/O0/:/dataset/ \
     -v $(pwd)/idascript:/idascript \
     --rm \
-    lgy/ida
+    docker/ida
 '''
