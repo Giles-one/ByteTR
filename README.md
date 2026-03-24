@@ -62,7 +62,37 @@ $ python step2.parseCfiInfo.py \
 ```
 
 #### 3. BytePA
-This section will be open-sourced after the paper is published. Thank you for your understanding.
+
+Next, first merge the DWARF and CFI information of the variables via `step3`, then use `step4` to construct the graph structure representations of the variables based on this information.
+
+```
+$ python step3.postProcess.py \
+    --arch <ARCH> \
+    --opt <OPT>
+$ python step4.generateSDG.py \
+    --arch <ARCH> \
+    --opt <OPT>
+```
 
 #### 4. ByteTP
-This section will be open-sourced after the paper is published. Thank you for your understanding.
+
+Next, process the dataset and perform tokenization of the graph nodes and edges. Finally, we train the model.
+
+```
+$ pushd BinaryProcessing/
+$ python preprocess.py \
+    --arch <ARCH> \
+    --opt <OPT>
+$ CUDA_VISIBLE_DEVICES=0 python train.py \
+    --arch x86_64 \
+    --opt O0 \
+    --lr 0.0001 \
+    --nepoch 200 \
+    --batch_size 32 \
+    --feature_dim 128 \
+    --gate_agg add \
+    --global_agg max \
+    --layer_GRU 3 \
+    --layer_GNN 3 \
+    --checkpoint_dir checkpoints
+```

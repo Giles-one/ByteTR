@@ -1,0 +1,8 @@
+{
+  "property": 0,
+  "parent": 1,
+  "connect": 2,
+  "intern": 3,
+  "extern": 4,
+  "extern_func": 5
+}

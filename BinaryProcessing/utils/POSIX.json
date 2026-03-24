@@ -1,0 +1,8912 @@
+{
+  "time": [
+    "time_t",
+    [
+      "time_t *"
+    ]
+  ],
+  "stime": [
+    "int",
+    [
+      "const time_t *"
+    ]
+  ],
+  "fcntl": [
+    "int",
+    [
+      "int",
+      "int",
+      "..."
+    ]
+  ],
+  "mbstowcs": [
+    "size_t",
+    [
+      "wchar_t *",
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "wcstombs": [
+    "size_t",
+    [
+      "char *",
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "sched_setscheduler": [
+    "int",
+    [
+      "pid_t",
+      "int",
+      "const struct sched_param *"
+    ]
+  ],
+  "sched_getscheduler": [
+    "int",
+    [
+      "pid_t"
+    ]
+  ],
+  "sched_setparam": [
+    "int",
+    [
+      "pid_t",
+      "const struct sched_param *"
+    ]
+  ],
+  "sched_getparam": [
+    "int",
+    [
+      "pid_t",
+      "struct sched_param *"
+    ]
+  ],
+  "sched_get_priority_min": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "sched_get_priority_max": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "sched_rr_get_interval": [
+    "int",
+    [
+      "pid_t",
+      "struct timespec *"
+    ]
+  ],
+  "sched_yield": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "fopencookie": [
+    "FILE *",
+    [
+      "void *",
+      "const char *",
+      "cookie_io_functions_t"
+    ]
+  ],
+  "sinh": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "sinhf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "sinhl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "cosh": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "coshf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "coshl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "tanh": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "tanhf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "tanhl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "csinh": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "csinhf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "csinhl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "ccosh": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "ccoshf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "ccoshl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "ctanh": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "ctanhf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "ctanhl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "asinh": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "asinhf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "asinhl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "acosh": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "acoshf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "acoshl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "atanh": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "atanhf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "atanhl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "casinh": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "casinhf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "casinhl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "cacosh": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "cacoshf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "cacoshl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "catanh": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "catanhf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "catanhl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "bind_textdomain_codeset": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "abort": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "strncpy": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict",
+      "size_t"
+    ]
+  ],
+  "wcsncpy": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict",
+      "size_t"
+    ]
+  ],
+  "strndup": [
+    "char *",
+    [
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "stpncpy": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict",
+      "size_t"
+    ]
+  ],
+  "wcpncpy": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict",
+      "size_t"
+    ]
+  ],
+  "strncat": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict",
+      "size_t"
+    ]
+  ],
+  "wcsncat": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict",
+      "size_t"
+    ]
+  ],
+  "sync": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "fsync": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "fdatasync": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "stat": [
+    "int",
+    [
+      "const char *",
+      "struct stat *"
+    ]
+  ],
+  "stat64": [
+    "int",
+    [
+      "const char *",
+      "struct stat64 *"
+    ]
+  ],
+  "fstat": [
+    "int",
+    [
+      "int",
+      "struct stat *"
+    ]
+  ],
+  "fstat64": [
+    "int",
+    [
+      "int",
+      "struct stat64 *"
+    ]
+  ],
+  "lstat": [
+    "int",
+    [
+      "const char *",
+      "struct stat *"
+    ]
+  ],
+  "lstat64": [
+    "int",
+    [
+      "const char *",
+      "struct stat64 *"
+    ]
+  ],
+  "pipe": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "brk": [
+    "int",
+    [
+      "void *"
+    ]
+  ],
+  "sbrk": [
+    "void *",
+    [
+      "ptrdiff_t"
+    ]
+  ],
+  "mmap": [
+    "void *",
+    [
+      "void *",
+      "size_t",
+      "int",
+      "int",
+      "int",
+      "off_t"
+    ]
+  ],
+  "mmap64": [
+    "void *",
+    [
+      "void *",
+      "size_t",
+      "int",
+      "int",
+      "int",
+      "off64_t"
+    ]
+  ],
+  "munmap": [
+    "int",
+    [
+      "void *",
+      "size_t"
+    ]
+  ],
+  "msync": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "mremap": [
+    "void *",
+    [
+      "void *",
+      "size_t",
+      "size_t",
+      "int"
+    ]
+  ],
+  "madvise": [
+    "int",
+    [
+      "void *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "shm_open": [
+    "int",
+    [
+      "const char *",
+      "int",
+      "mode_t"
+    ]
+  ],
+  "shm_unlink": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "execv": [
+    "int",
+    [
+      "const char *",
+      "char * const"
+    ]
+  ],
+  "execl": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "execve": [
+    "int",
+    [
+      "const char *",
+      "char * const",
+      "char * const"
+    ]
+  ],
+  "execle": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "...",
+      "char * const"
+    ]
+  ],
+  "execvp": [
+    "int",
+    [
+      "const char *",
+      "char * const"
+    ]
+  ],
+  "execlp": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "signal": [
+    "sighandler_t",
+    [
+      "int",
+      "sighandler_t"
+    ]
+  ],
+  "sysv_signal": [
+    "sighandler_t",
+    [
+      "int",
+      "sighandler_t"
+    ]
+  ],
+  "ssignal": [
+    "sighandler_t",
+    [
+      "int",
+      "sighandler_t"
+    ]
+  ],
+  "creal": [
+    "double",
+    [
+      "complex double"
+    ]
+  ],
+  "crealf": [
+    "float",
+    [
+      "complex float"
+    ]
+  ],
+  "creall": [
+    "long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "cimag": [
+    "double",
+    [
+      "complex double"
+    ]
+  ],
+  "cimagf": [
+    "float",
+    [
+      "complex float"
+    ]
+  ],
+  "cimagl": [
+    "long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "conj": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "conjf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "conjl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "carg": [
+    "double",
+    [
+      "complex double"
+    ]
+  ],
+  "cargf": [
+    "float",
+    [
+      "complex float"
+    ]
+  ],
+  "cargl": [
+    "long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "cproj": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "cprojf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "cprojl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "pause": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "getservbyname": [
+    "struct servent *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "getservbyport": [
+    "struct servent *",
+    [
+      "int",
+      "const char *"
+    ]
+  ],
+  "setservent": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "getservent": [
+    "struct servent *",
+    [
+      "void"
+    ]
+  ],
+  "endservent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getopt": [
+    "int",
+    [
+      "int",
+      "char * const *",
+      "const char *"
+    ]
+  ],
+  "argp_parse": [
+    "error_t",
+    [
+      "const struct argp *",
+      "int",
+      "char * *",
+      "unsigned",
+      "int *",
+      "void *"
+    ]
+  ],
+  "openlog": [
+    "void",
+    [
+      "const char *",
+      "int",
+      "int"
+    ]
+  ],
+  "gtty": [
+    "int",
+    [
+      "int",
+      "struct sgttyb *"
+    ]
+  ],
+  "stty": [
+    "int",
+    [
+      "int",
+      "const struct sgttyb *"
+    ]
+  ],
+  "mkdir": [
+    "int",
+    [
+      "const char *",
+      "mode_t"
+    ]
+  ],
+  "memcmp": [
+    "int",
+    [
+      "const void *",
+      "const void *",
+      "size_t"
+    ]
+  ],
+  "wmemcmp": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "strcmp": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcscmp": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "strcasecmp": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcscasecmp": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "strncmp": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "wcsncmp": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "strncasecmp": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "wcsncasecmp": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "strverscmp": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "bcmp": [
+    "int",
+    [
+      "const void *",
+      "const void *",
+      "size_t"
+    ]
+  ],
+  "readdir": [
+    "struct dirent *",
+    [
+      "DIR *"
+    ]
+  ],
+  "readdir_r": [
+    "int",
+    [
+      "DIR *",
+      "struct dirent *",
+      "struct dirent * *"
+    ]
+  ],
+  "readdir64": [
+    "struct dirent64 *",
+    [
+      "DIR *"
+    ]
+  ],
+  "readdir64_r": [
+    "int",
+    [
+      "DIR *",
+      "struct dirent64 *",
+      "struct dirent64 * *"
+    ]
+  ],
+  "closedir": [
+    "int",
+    [
+      "DIR *"
+    ]
+  ],
+  "memchr": [
+    "void *",
+    [
+      "const void *",
+      "int",
+      "size_t"
+    ]
+  ],
+  "wmemchr": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "wchar_t",
+      "size_t"
+    ]
+  ],
+  "rawmemchr": [
+    "void *",
+    [
+      "const void *",
+      "int"
+    ]
+  ],
+  "memrchr": [
+    "void *",
+    [
+      "const void *",
+      "int",
+      "size_t"
+    ]
+  ],
+  "strchr": [
+    "char *",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "wcschr": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "int"
+    ]
+  ],
+  "strchrnul": [
+    "char *",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "wcschrnul": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "wchar_t"
+    ]
+  ],
+  "strrchr": [
+    "char *",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "wcsrchr": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "wchar_t"
+    ]
+  ],
+  "strstr": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcsstr": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "wcswcs": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "strcasestr": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "memmem": [
+    "void *",
+    [
+      "const void *",
+      "size_t",
+      "<br>const void *",
+      "size_t"
+    ]
+  ],
+  "strspn": [
+    "size_t",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcsspn": [
+    "size_t",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "strcspn": [
+    "size_t",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcscspn": [
+    "size_t",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "strpbrk": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcspbrk": [
+    "wchar_t *",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "index": [
+    "char *",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "rindex": [
+    "char *",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "fmemopen": [
+    "FILE *",
+    [
+      "void *",
+      "size_t",
+      "const char *"
+    ]
+  ],
+  "open_memstream": [
+    "FILE *",
+    [
+      "char * *",
+      "size_t *"
+    ]
+  ],
+  "getline": [
+    "ssize_t",
+    [
+      "char * *",
+      "size_t *",
+      "FILE *"
+    ]
+  ],
+  "getdelim": [
+    "ssize_t",
+    [
+      "char * *",
+      "size_t *",
+      "int",
+      "FILE *"
+    ]
+  ],
+  "fgets": [
+    "char *",
+    [
+      "char *",
+      "int",
+      "FILE *"
+    ]
+  ],
+  "fgetws": [
+    "wchar_t *",
+    [
+      "wchar_t *",
+      "int",
+      "FILE *"
+    ]
+  ],
+  "fgets_unlocked": [
+    "char *",
+    [
+      "char *",
+      "int",
+      "FILE *"
+    ]
+  ],
+  "fgetws_unlocked": [
+    "wchar_t *",
+    [
+      "wchar_t *",
+      "int",
+      "FILE *"
+    ]
+  ],
+  "wordexp": [
+    "int",
+    [
+      "const char *",
+      "wordexp_t *",
+      "int"
+    ]
+  ],
+  "wordfree": [
+    "void",
+    [
+      "wordexp_t *"
+    ]
+  ],
+  "sigaltstack": [
+    "int",
+    [
+      "const stack_t * restrict",
+      "stack_t * restrict"
+    ]
+  ],
+  "sigstack": [
+    "int",
+    [
+      "struct sigstack *",
+      "struct sigstack *"
+    ]
+  ],
+  "siginterrupt": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "sigblock": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "sigsetmask": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "sigpause": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "localeconv": [
+    "struct lconv *",
+    [
+      "void"
+    ]
+  ],
+  "obstack_free": [
+    "void",
+    [
+      "struct obstack *",
+      "void *"
+    ]
+  ],
+  "aligned_alloc": [
+    "void *",
+    [
+      "size_t",
+      "size_t"
+    ]
+  ],
+  "memalign": [
+    "void *",
+    [
+      "size_t",
+      "size_t"
+    ]
+  ],
+  "posix_memalign": [
+    "int",
+    [
+      "void * *",
+      "size_t",
+      "size_t"
+    ]
+  ],
+  "valloc": [
+    "void *",
+    [
+      "size_t"
+    ]
+  ],
+  "posix_fallocate": [
+    "int",
+    [
+      "int",
+      "off_t",
+      "off_t"
+    ]
+  ],
+  "posix_fallocate64": [
+    "int",
+    [
+      "int",
+      "off64_t",
+      "off64_t"
+    ]
+  ],
+  "setlocale": [
+    "char *",
+    [
+      "int",
+      "const char *"
+    ]
+  ],
+  "pthread_key_create": [
+    "int",
+    [
+      "pthread_key_t *",
+      "void ( * destructor ) ( void *"
+    ]
+  ],
+  "pthread_key_delete": [
+    "int",
+    [
+      "pthread_key_t"
+    ]
+  ],
+  "pthread_getspecific": [
+    "void *",
+    [
+      "pthread_key_t"
+    ]
+  ],
+  "pthread_setspecific": [
+    "int",
+    [
+      "pthread_key_t",
+      "const void *"
+    ]
+  ],
+  "tolower": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "toupper": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "toascii": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "_tolower": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "_toupper": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "waitpid": [
+    "pid_t",
+    [
+      "pid_t",
+      "int *",
+      "int"
+    ]
+  ],
+  "wait": [
+    "pid_t",
+    [
+      "int *"
+    ]
+  ],
+  "wait4": [
+    "pid_t",
+    [
+      "pid_t",
+      "int *",
+      "int",
+      "struct rusage *"
+    ]
+  ],
+  "_exit": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "_Exit": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "rpmatch": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "tzset": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "sched_getaffinity": [
+    "int",
+    [
+      "pid_t",
+      "size_t",
+      "cpu_set_t *"
+    ]
+  ],
+  "sched_setaffinity": [
+    "int",
+    [
+      "pid_t",
+      "size_t",
+      "const cpu_set_t *"
+    ]
+  ],
+  "setsid": [
+    "pid_t",
+    [
+      "void"
+    ]
+  ],
+  "getsid": [
+    "pid_t",
+    [
+      "pid_t"
+    ]
+  ],
+  "getpgrp": [
+    "pid_t",
+    [
+      "void"
+    ]
+  ],
+  "getpgid": [
+    "int",
+    [
+      "pid_t"
+    ]
+  ],
+  "setpgid": [
+    "int",
+    [
+      "pid_t",
+      "pid_t"
+    ]
+  ],
+  "setpgrp": [
+    "int",
+    [
+      "pid_t",
+      "pid_t"
+    ]
+  ],
+  "obstack_blank": [
+    "void",
+    [
+      "struct obstack *",
+      "int"
+    ]
+  ],
+  "obstack_grow": [
+    "void",
+    [
+      "struct obstack *",
+      "void *",
+      "int"
+    ]
+  ],
+  "obstack_grow0": [
+    "void",
+    [
+      "struct obstack *",
+      "void *",
+      "int"
+    ]
+  ],
+  "obstack_1grow": [
+    "void",
+    [
+      "struct obstack *",
+      "char"
+    ]
+  ],
+  "obstack_ptr_grow": [
+    "void",
+    [
+      "struct obstack *",
+      "void *"
+    ]
+  ],
+  "obstack_int_grow": [
+    "void",
+    [
+      "struct obstack *",
+      "int"
+    ]
+  ],
+  "obstack_finish": [
+    "void *",
+    [
+      "struct obstack *"
+    ]
+  ],
+  "obstack_object_size": [
+    "int",
+    [
+      "struct obstack *"
+    ]
+  ],
+  "qsort": [
+    "void",
+    [
+      "void *",
+      "size_t",
+      "size_t",
+      "comparison_fn_t"
+    ]
+  ],
+  "syscall": [
+    "long int",
+    [
+      "long int",
+      "..."
+    ]
+  ],
+  "setmntent": [
+    "FILE *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "endmntent": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "getmntent": [
+    "struct mntent *",
+    [
+      "FILE *"
+    ]
+  ],
+  "getmntent_r": [
+    "struct mntent *",
+    [
+      "FILE *",
+      "struct mntent *",
+      "char *",
+      "int"
+    ]
+  ],
+  "addmntent": [
+    "int",
+    [
+      "FILE *",
+      "const struct mntent *"
+    ]
+  ],
+  "hasmntopt": [
+    "char *",
+    [
+      "const struct mntent *",
+      "const char *"
+    ]
+  ],
+  "ntp_gettime": [
+    "int",
+    [
+      "struct ntptimeval *"
+    ]
+  ],
+  "ntp_adjtime": [
+    "int",
+    [
+      "struct timex *"
+    ]
+  ],
+  "memcpy": [
+    "void *",
+    [
+      "void * restrict",
+      "const void * restrict",
+      "size_t"
+    ]
+  ],
+  "wmemcpy": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict",
+      "size_t"
+    ]
+  ],
+  "mempcpy": [
+    "void *",
+    [
+      "void * restrict",
+      "const void * restrict",
+      "size_t"
+    ]
+  ],
+  "wmempcpy": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict",
+      "size_t"
+    ]
+  ],
+  "memmove": [
+    "void *",
+    [
+      "void *",
+      "const void *",
+      "size_t"
+    ]
+  ],
+  "wmemmove": [
+    "wchar_t *",
+    [
+      "wchar_t *",
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "memccpy": [
+    "void *",
+    [
+      "void * restrict",
+      "const void * restrict",
+      "int",
+      "size_t"
+    ]
+  ],
+  "memset": [
+    "void *",
+    [
+      "void *",
+      "int",
+      "size_t"
+    ]
+  ],
+  "wmemset": [
+    "wchar_t *",
+    [
+      "wchar_t *",
+      "wchar_t",
+      "size_t"
+    ]
+  ],
+  "strcpy": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict"
+    ]
+  ],
+  "wcscpy": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict"
+    ]
+  ],
+  "strdup": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "wcsdup": [
+    "wchar_t *",
+    [
+      "const wchar_t *"
+    ]
+  ],
+  "stpcpy": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict"
+    ]
+  ],
+  "wcpcpy": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict"
+    ]
+  ],
+  "bcopy": [
+    "void",
+    [
+      "const void *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "bzero": [
+    "void",
+    [
+      "void *",
+      "size_t"
+    ]
+  ],
+  "ecvt": [
+    "char *",
+    [
+      "double",
+      "int",
+      "int *",
+      "int *"
+    ]
+  ],
+  "fcvt": [
+    "char *",
+    [
+      "double",
+      "int",
+      "int *",
+      "int *"
+    ]
+  ],
+  "gcvt": [
+    "char *",
+    [
+      "double",
+      "int",
+      "char *"
+    ]
+  ],
+  "qecvt": [
+    "char *",
+    [
+      "long double",
+      "int",
+      "int *",
+      "int *"
+    ]
+  ],
+  "qfcvt": [
+    "char *",
+    [
+      "long double",
+      "int",
+      "int *",
+      "int *"
+    ]
+  ],
+  "qgcvt": [
+    "char *",
+    [
+      "long double",
+      "int",
+      "char *"
+    ]
+  ],
+  "ecvt_r": [
+    "int",
+    [
+      "double",
+      "int",
+      "int *",
+      "int *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "fcvt_r": [
+    "int",
+    [
+      "double",
+      "int",
+      "int *",
+      "int *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "qecvt_r": [
+    "int",
+    [
+      "long double",
+      "int",
+      "int *",
+      "int *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "qfcvt_r": [
+    "int",
+    [
+      "long double",
+      "int",
+      "int *",
+      "int *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "open": [
+    "int",
+    [
+      "const char *",
+      "int",
+      "mode_t"
+    ]
+  ],
+  "open64": [
+    "int",
+    [
+      "const char *",
+      "int",
+      "mode_t"
+    ]
+  ],
+  "close": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "semctl": [
+    "int",
+    [
+      "int",
+      "int",
+      "int"
+    ]
+  ],
+  "semget": [
+    "int",
+    [
+      "key_t",
+      "int",
+      "int"
+    ]
+  ],
+  "semop": [
+    "int",
+    [
+      "int",
+      "struct sembuf *",
+      "size_t"
+    ]
+  ],
+  "semtimedop": [
+    "int",
+    [
+      "int",
+      "struct sembuf *",
+      "size_t",
+      "const struct timespec *"
+    ]
+  ],
+  "sem_init": [
+    "int",
+    [
+      "sem_t *",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "sem_destroy": [
+    "int",
+    [
+      "sem_t *"
+    ]
+  ],
+  "sem_open": [
+    "sem_t *",
+    [
+      "const char *",
+      "int",
+      "..."
+    ]
+  ],
+  "sem_close": [
+    "int",
+    [
+      "sem_t *"
+    ]
+  ],
+  "sem_unlink": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "sem_wait": [
+    "int",
+    [
+      "sem_t *"
+    ]
+  ],
+  "sem_timedwait": [
+    "int",
+    [
+      "sem_t *",
+      "const struct timespec *"
+    ]
+  ],
+  "sem_trywait": [
+    "int",
+    [
+      "sem_t *"
+    ]
+  ],
+  "sem_post": [
+    "int",
+    [
+      "sem_t *"
+    ]
+  ],
+  "sem_getvalue": [
+    "int",
+    [
+      "sem_t *",
+      "int *"
+    ]
+  ],
+  "mknod": [
+    "int",
+    [
+      "const char *",
+      "mode_t",
+      "dev_t"
+    ]
+  ],
+  "opendir": [
+    "DIR *",
+    [
+      "const char *"
+    ]
+  ],
+  "fdopendir": [
+    "DIR *",
+    [
+      "int"
+    ]
+  ],
+  "dirfd": [
+    "int",
+    [
+      "DIR *"
+    ]
+  ],
+  "strlen": [
+    "size_t",
+    [
+      "const char *"
+    ]
+  ],
+  "wcslen": [
+    "size_t",
+    [
+      "const wchar_t *"
+    ]
+  ],
+  "strnlen": [
+    "size_t",
+    [
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "wcsnlen": [
+    "size_t",
+    [
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "setvbuf": [
+    "int",
+    [
+      "FILE *",
+      "char *",
+      "int",
+      "size_t"
+    ]
+  ],
+  "setbuf": [
+    "void",
+    [
+      "FILE *",
+      "char *"
+    ]
+  ],
+  "setbuffer": [
+    "void",
+    [
+      "FILE *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "setlinebuf": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "__flbf": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "__fbufsize": [
+    "size_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "__fpending": [
+    "size_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "random": [
+    "long int",
+    [
+      "void"
+    ]
+  ],
+  "srandom": [
+    "void",
+    [
+      "unsigned int"
+    ]
+  ],
+  "initstate": [
+    "char *",
+    [
+      "unsigned int",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "setstate": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "random_r": [
+    "int",
+    [
+      "struct random_data * restrict",
+      "int32_t * restrict"
+    ]
+  ],
+  "srandom_r": [
+    "int",
+    [
+      "unsigned int",
+      "struct random_data *"
+    ]
+  ],
+  "initstate_r": [
+    "int",
+    [
+      "unsigned int",
+      "char * restrict",
+      "size_t",
+      "struct random_data * restrict"
+    ]
+  ],
+  "setstate_r": [
+    "int",
+    [
+      "char * restrict",
+      "struct random_data * restrict"
+    ]
+  ],
+  "unlink": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "rmdir": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "remove": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "utime": [
+    "int",
+    [
+      "const char *",
+      "const struct utimbuf *"
+    ]
+  ],
+  "utimes": [
+    "int",
+    [
+      "const char *",
+      "const struct timeval"
+    ]
+  ],
+  "lutimes": [
+    "int",
+    [
+      "const char *",
+      "const struct timeval"
+    ]
+  ],
+  "futimes": [
+    "int",
+    [
+      "int",
+      "const struct timeval"
+    ]
+  ],
+  "fclose": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "fcloseall": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "erf": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "erff": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "erfl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "erfc": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "erfcf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "erfcl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "lgamma": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "lgammaf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "lgammal": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "lgamma_r": [
+    "double",
+    [
+      "double",
+      "int *"
+    ]
+  ],
+  "lgammaf_r": [
+    "float",
+    [
+      "float",
+      "int *"
+    ]
+  ],
+  "lgammal_r": [
+    "long double",
+    [
+      "long double",
+      "int *"
+    ]
+  ],
+  "gamma": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "gammaf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "gammal": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "tgamma": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "tgammaf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "tgammal": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "j0": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "j0f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "j0l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "j1": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "j1f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "j1l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "jn": [
+    "double",
+    [
+      "int",
+      "double"
+    ]
+  ],
+  "jnf": [
+    "float",
+    [
+      "int",
+      "float"
+    ]
+  ],
+  "jnl": [
+    "long double",
+    [
+      "int",
+      "long double"
+    ]
+  ],
+  "y0": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "y0f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "y0l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "y1": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "y1f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "y1l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "yn": [
+    "double",
+    [
+      "int",
+      "double"
+    ]
+  ],
+  "ynf": [
+    "float",
+    [
+      "int",
+      "float"
+    ]
+  ],
+  "ynl": [
+    "long double",
+    [
+      "int",
+      "long double"
+    ]
+  ],
+  "getrlimit": [
+    "int",
+    [
+      "int",
+      "struct rlimit *"
+    ]
+  ],
+  "getrlimit64": [
+    "int",
+    [
+      "int",
+      "struct rlimit64 *"
+    ]
+  ],
+  "setrlimit": [
+    "int",
+    [
+      "int",
+      "const struct rlimit *"
+    ]
+  ],
+  "setrlimit64": [
+    "int",
+    [
+      "int",
+      "const struct rlimit64 *"
+    ]
+  ],
+  "ulimit": [
+    "long int",
+    [
+      "int",
+      "..."
+    ]
+  ],
+  "vlimit": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "getprotobyname": [
+    "struct protoent *",
+    [
+      "const char *"
+    ]
+  ],
+  "getprotobynumber": [
+    "struct protoent *",
+    [
+      "int"
+    ]
+  ],
+  "setprotoent": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "getprotoent": [
+    "struct protoent *",
+    [
+      "void"
+    ]
+  ],
+  "endprotoent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "memfrob": [
+    "void *",
+    [
+      "void *",
+      "size_t"
+    ]
+  ],
+  "getlogin": [
+    "char *",
+    [
+      "void"
+    ]
+  ],
+  "cuserid": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "rename": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "getsockname": [
+    "int",
+    [
+      "int",
+      "struct sockaddr *",
+      "socklen_t *"
+    ]
+  ],
+  "if_nametoindex": [
+    "unsigned int",
+    [
+      "const char *"
+    ]
+  ],
+  "if_indextoname": [
+    "char *",
+    [
+      "unsigned int",
+      "char *"
+    ]
+  ],
+  "if_nameindex": [
+    "struct if_nameindex *",
+    [
+      "void"
+    ]
+  ],
+  "if_freenameindex": [
+    "void",
+    [
+      "struct if_nameindex *"
+    ]
+  ],
+  "send": [
+    "ssize_t",
+    [
+      "int",
+      "const void *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "gettimeofday": [
+    "int",
+    [
+      "struct timeval *",
+      "struct timezone *"
+    ]
+  ],
+  "settimeofday": [
+    "int",
+    [
+      "const struct timeval *",
+      "const struct timezone *"
+    ]
+  ],
+  "adjtime": [
+    "int",
+    [
+      "const struct timeval *",
+      "struct timeval *"
+    ]
+  ],
+  "adjtimex": [
+    "int",
+    [
+      "struct timex *"
+    ]
+  ],
+  "setegid": [
+    "int",
+    [
+      "gid_t"
+    ]
+  ],
+  "setgid": [
+    "int",
+    [
+      "gid_t"
+    ]
+  ],
+  "setregid": [
+    "int",
+    [
+      "gid_t",
+      "gid_t"
+    ]
+  ],
+  "setgroups": [
+    "int",
+    [
+      "size_t",
+      "const gid_t *"
+    ]
+  ],
+  "initgroups": [
+    "int",
+    [
+      "const char *",
+      "gid_t"
+    ]
+  ],
+  "getgrouplist": [
+    "int",
+    [
+      "const char *",
+      "gid_t",
+      "gid_t *",
+      "int *"
+    ]
+  ],
+  "fegetenv": [
+    "int",
+    [
+      "fenv_t *"
+    ]
+  ],
+  "feholdexcept": [
+    "int",
+    [
+      "fenv_t *"
+    ]
+  ],
+  "fesetenv": [
+    "int",
+    [
+      "const fenv_t *"
+    ]
+  ],
+  "feupdateenv": [
+    "int",
+    [
+      "const fenv_t *"
+    ]
+  ],
+  "fegetmode": [
+    "int",
+    [
+      "femode_t *"
+    ]
+  ],
+  "fesetmode": [
+    "int",
+    [
+      "const femode_t *"
+    ]
+  ],
+  "feenableexcept": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "fedisableexcept": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "fegetexcept": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "crypt": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "crypt_r": [
+    "char *",
+    [
+      "const char *",
+      "const char *",
+      "struct crypt_data *"
+    ]
+  ],
+  "lfind": [
+    "void *",
+    [
+      "const void *",
+      "const void *",
+      "size_t *",
+      "size_t",
+      "comparison_fn_t"
+    ]
+  ],
+  "lsearch": [
+    "void *",
+    [
+      "const void *",
+      "void *",
+      "size_t *",
+      "size_t",
+      "comparison_fn_t"
+    ]
+  ],
+  "bsearch": [
+    "void *",
+    [
+      "const void *",
+      "const void *",
+      "size_t",
+      "size_t",
+      "comparison_fn_t"
+    ]
+  ],
+  "aio_read": [
+    "int",
+    [
+      "struct aiocb *"
+    ]
+  ],
+  "aio_read64": [
+    "int",
+    [
+      "struct aiocb64 *"
+    ]
+  ],
+  "aio_write": [
+    "int",
+    [
+      "struct aiocb *"
+    ]
+  ],
+  "aio_write64": [
+    "int",
+    [
+      "struct aiocb64 *"
+    ]
+  ],
+  "lio_listio": [
+    "int",
+    [
+      "int",
+      "struct aiocb * const",
+      "int",
+      "struct sigevent *"
+    ]
+  ],
+  "lio_listio64": [
+    "int",
+    [
+      "int",
+      "struct aiocb64 * const",
+      "int",
+      "struct sigevent *"
+    ]
+  ],
+  "accept": [
+    "int",
+    [
+      "int",
+      "struct sockaddr *",
+      "socklen_t *"
+    ]
+  ],
+  "strfmon": [
+    "ssize_t",
+    [
+      "char *",
+      "size_t",
+      "const char *",
+      "..."
+    ]
+  ],
+  "setkey": [
+    "void",
+    [
+      "const char *"
+    ]
+  ],
+  "encrypt": [
+    "void",
+    [
+      "char *",
+      "int"
+    ]
+  ],
+  "setkey_r": [
+    "void",
+    [
+      "const char *",
+      "struct crypt_data *"
+    ]
+  ],
+  "encrypt_r": [
+    "void",
+    [
+      "char *",
+      "int",
+      "struct crypt_data *"
+    ]
+  ],
+  "ecb_crypt": [
+    "int",
+    [
+      "char *",
+      "char *",
+      "unsigned int",
+      "unsigned int"
+    ]
+  ],
+  "DES_FAILED": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "cbc_crypt": [
+    "int",
+    [
+      "char *",
+      "char *",
+      "unsigned int",
+      "unsigned int",
+      "char *"
+    ]
+  ],
+  "des_setparity": [
+    "void",
+    [
+      "char *"
+    ]
+  ],
+  "copysign": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "copysignf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "copysignl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "signbit": [
+    "int",
+    [
+      "float-type"
+    ]
+  ],
+  "nextafter": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "nextafterf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "nextafterl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "nexttoward": [
+    "double",
+    [
+      "double",
+      "long double"
+    ]
+  ],
+  "nexttowardf": [
+    "float",
+    [
+      "float",
+      "long double"
+    ]
+  ],
+  "nexttowardl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "nextup": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "nextupf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "nextupl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "nextdown": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "nextdownf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "nextdownl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "nan": [
+    "double",
+    [
+      "const char *"
+    ]
+  ],
+  "nanf": [
+    "float",
+    [
+      "const char *"
+    ]
+  ],
+  "nanl": [
+    "long double",
+    [
+      "const char *"
+    ]
+  ],
+  "canonicalize": [
+    "int",
+    [
+      "double *",
+      "const double *"
+    ]
+  ],
+  "canonicalizef": [
+    "int",
+    [
+      "float *",
+      "const float *"
+    ]
+  ],
+  "canonicalizel": [
+    "int",
+    [
+      "long double *",
+      "const long double *"
+    ]
+  ],
+  "getpayload": [
+    "double",
+    [
+      "const double *"
+    ]
+  ],
+  "getpayloadf": [
+    "float",
+    [
+      "const float *"
+    ]
+  ],
+  "getpayloadl": [
+    "long double",
+    [
+      "const long double *"
+    ]
+  ],
+  "setpayload": [
+    "int",
+    [
+      "double *",
+      "double"
+    ]
+  ],
+  "setpayloadf": [
+    "int",
+    [
+      "float *",
+      "float"
+    ]
+  ],
+  "setpayloadl": [
+    "int",
+    [
+      "long double *",
+      "long double"
+    ]
+  ],
+  "setpayloadsig": [
+    "int",
+    [
+      "double *",
+      "double"
+    ]
+  ],
+  "setpayloadsigf": [
+    "int",
+    [
+      "float *",
+      "float"
+    ]
+  ],
+  "setpayloadsigl": [
+    "int",
+    [
+      "long double *",
+      "long double"
+    ]
+  ],
+  "argz_create": [
+    "error_t",
+    [
+      "char * const",
+      "char * *",
+      "size_t *"
+    ]
+  ],
+  "argz_create_sep": [
+    "error_t",
+    [
+      "const char *",
+      "int",
+      "char * *",
+      "size_t *"
+    ]
+  ],
+  "argz_count": [
+    "size_t",
+    [
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "argz_extract": [
+    "void",
+    [
+      "const char *",
+      "size_t",
+      "char * *"
+    ]
+  ],
+  "argz_stringify": [
+    "void",
+    [
+      "char *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "argz_add": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "const char *"
+    ]
+  ],
+  "argz_add_sep": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "const char *",
+      "int"
+    ]
+  ],
+  "argz_append": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "argz_delete": [
+    "void",
+    [
+      "char * *",
+      "size_t *",
+      "char *"
+    ]
+  ],
+  "argz_insert": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "char *",
+      "const char *"
+    ]
+  ],
+  "argz_next": [
+    "char *",
+    [
+      "const char *",
+      "size_t",
+      "const char *"
+    ]
+  ],
+  "argz_replace": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "const char *",
+      "const char *",
+      "unsigned int *"
+    ]
+  ],
+  "vprintf": [
+    "int",
+    [
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vwprintf": [
+    "int",
+    [
+      "const wchar_t *",
+      "va_list"
+    ]
+  ],
+  "vfprintf": [
+    "int",
+    [
+      "FILE *",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vfwprintf": [
+    "int",
+    [
+      "FILE *",
+      "const wchar_t *",
+      "va_list"
+    ]
+  ],
+  "vsprintf": [
+    "int",
+    [
+      "char *",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vswprintf": [
+    "int",
+    [
+      "wchar_t *",
+      "size_t",
+      "const wchar_t *",
+      "va_list"
+    ]
+  ],
+  "vsnprintf": [
+    "int",
+    [
+      "char *",
+      "size_t",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vasprintf": [
+    "int",
+    [
+      "char * *",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "obstack_vprintf": [
+    "int",
+    [
+      "struct obstack *",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "login_tty": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "login": [
+    "void",
+    [
+      "const struct utmp *"
+    ]
+  ],
+  "logout": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "logwtmp": [
+    "void",
+    [
+      "const char *",
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wctype": [
+    "wctype_t",
+    [
+      "const char *"
+    ]
+  ],
+  "iswctype": [
+    "int",
+    [
+      "wint_t",
+      "wctype_t"
+    ]
+  ],
+  "iswalnum": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswalpha": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswcntrl": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswdigit": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswgraph": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswlower": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswprint": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswpunct": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswspace": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswupper": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswxdigit": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "iswblank": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "innetgr": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "atexit": [
+    "int",
+    [
+      "void ( * function )  ( void"
+    ]
+  ],
+  "on_exit": [
+    "int",
+    [
+      "void ( * function ) ( int",
+      "void * arg",
+      "void *"
+    ]
+  ],
+  "chown": [
+    "int",
+    [
+      "const char *",
+      "uid_t",
+      "gid_t"
+    ]
+  ],
+  "fchown": [
+    "int",
+    [
+      "int",
+      "uid_t",
+      "gid_t"
+    ]
+  ],
+  "system": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "setutxent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getutxent": [
+    "struct utmpx *",
+    [
+      "void"
+    ]
+  ],
+  "endutxent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getutxid": [
+    "struct utmpx *",
+    [
+      "const struct utmpx *"
+    ]
+  ],
+  "getutxline": [
+    "struct utmpx *",
+    [
+      "const struct utmpx *"
+    ]
+  ],
+  "pututxline": [
+    "struct utmpx *",
+    [
+      "const struct utmpx *"
+    ]
+  ],
+  "utmpxname": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "getutmp": [
+    "int",
+    [
+      "const struct utmpx *",
+      "struct utmp *"
+    ]
+  ],
+  "getutmpx": [
+    "int",
+    [
+      "const struct utmp *",
+      "struct utmpx *"
+    ]
+  ],
+  "difftime": [
+    "double",
+    [
+      "time_t",
+      "time_t"
+    ]
+  ],
+  "strsignal": [
+    "char *",
+    [
+      "int"
+    ]
+  ],
+  "psignal": [
+    "void",
+    [
+      "int",
+      "const char *"
+    ]
+  ],
+  "socketpair": [
+    "int",
+    [
+      "int",
+      "int",
+      "int",
+      "int"
+    ]
+  ],
+  "calloc": [
+    "void *",
+    [
+      "size_t",
+      "size_t"
+    ]
+  ],
+  "getsubopt": [
+    "int",
+    [
+      "char * *",
+      "char * const *",
+      "char * *"
+    ]
+  ],
+  "strptime": [
+    "char *",
+    [
+      "const char *",
+      "const char *",
+      "struct tm *"
+    ]
+  ],
+  "tcsendbreak": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "tcdrain": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "tcflush": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "tcflow": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "htons": [
+    "uint16_t",
+    [
+      "uint16_t"
+    ]
+  ],
+  "ntohs": [
+    "uint16_t",
+    [
+      "uint16_t"
+    ]
+  ],
+  "htonl": [
+    "uint32_t",
+    [
+      "uint32_t"
+    ]
+  ],
+  "ntohl": [
+    "uint32_t",
+    [
+      "uint32_t"
+    ]
+  ],
+  "register_printf_function": [
+    "int",
+    [
+      "int",
+      "printf_function",
+      "printf_arginfo_function"
+    ]
+  ],
+  "obstack_alloc": [
+    "void *",
+    [
+      "struct obstack *",
+      "int"
+    ]
+  ],
+  "obstack_copy": [
+    "void *",
+    [
+      "struct obstack *",
+      "void *",
+      "int"
+    ]
+  ],
+  "obstack_copy0": [
+    "void *",
+    [
+      "struct obstack *",
+      "void *",
+      "int"
+    ]
+  ],
+  "fmtmsg": [
+    "int",
+    [
+      "long int",
+      "const char *",
+      "int",
+      "const char *",
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "sigsetjmp": [
+    "int",
+    [
+      "sigjmp_buf",
+      "int"
+    ]
+  ],
+  "siglongjmp": [
+    "void",
+    [
+      "sigjmp_buf",
+      "int"
+    ]
+  ],
+  "explicit_bzero": [
+    "void",
+    [
+      "void *",
+      "size_t"
+    ]
+  ],
+  "globfree": [
+    "void",
+    [
+      "glob_t *"
+    ]
+  ],
+  "globfree64": [
+    "void",
+    [
+      "glob64_t *"
+    ]
+  ],
+  "isatty": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "ttyname": [
+    "char *",
+    [
+      "int"
+    ]
+  ],
+  "ttyname_r": [
+    "int",
+    [
+      "int",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "envz_entry": [
+    "char *",
+    [
+      "const char *",
+      "size_t",
+      "const char *"
+    ]
+  ],
+  "envz_get": [
+    "char *",
+    [
+      "const char *",
+      "size_t",
+      "const char *"
+    ]
+  ],
+  "envz_add": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "envz_merge": [
+    "error_t",
+    [
+      "char * *",
+      "size_t *",
+      "const char *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "envz_strip": [
+    "void",
+    [
+      "char * *",
+      "size_t *"
+    ]
+  ],
+  "envz_remove": [
+    "void",
+    [
+      "char * *",
+      "size_t *",
+      "const char *"
+    ]
+  ],
+  "confstr": [
+    "size_t",
+    [
+      "int",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "mallinfo": [
+    "struct mallinfo",
+    [
+      "void"
+    ]
+  ],
+  "gettext": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "dgettext": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "dcgettext": [
+    "char *",
+    [
+      "const char *",
+      "const char *",
+      "int"
+    ]
+  ],
+  "fgetc": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "fgetwc": [
+    "wint_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "fgetc_unlocked": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "fgetwc_unlocked": [
+    "wint_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "getc": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "getwc": [
+    "wint_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "getc_unlocked": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "getwc_unlocked": [
+    "wint_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "getchar": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "getwchar": [
+    "wint_t",
+    [
+      "void"
+    ]
+  ],
+  "getchar_unlocked": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "getwchar_unlocked": [
+    "wint_t",
+    [
+      "void"
+    ]
+  ],
+  "getw": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "obstack_init": [
+    "int",
+    [
+      "struct obstack *"
+    ]
+  ],
+  "aio_init": [
+    "void",
+    [
+      "const struct aioinit *"
+    ]
+  ],
+  "sleep": [
+    "unsigned int",
+    [
+      "unsigned int"
+    ]
+  ],
+  "nanosleep": [
+    "int",
+    [
+      "const struct timespec *",
+      "struct timespec *"
+    ]
+  ],
+  "nl_langinfo": [
+    "char *",
+    [
+      "nl_item"
+    ]
+  ],
+  "sin": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "sinf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "sinl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "cos": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "cosf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "cosl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "tan": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "tanf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "tanl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "sincos": [
+    "void",
+    [
+      "double",
+      "double *",
+      "double *"
+    ]
+  ],
+  "sincosf": [
+    "void",
+    [
+      "float",
+      "float *",
+      "float *"
+    ]
+  ],
+  "sincosl": [
+    "void",
+    [
+      "long double",
+      "long double *",
+      "long double *"
+    ]
+  ],
+  "csin": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "csinf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "csinl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "ccos": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "ccosf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "ccosl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "ctan": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "ctanf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "ctanl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "get_nprocs_conf": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "get_nprocs": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "getloadavg": [
+    "int",
+    [
+      "double",
+      "int"
+    ]
+  ],
+  "lseek": [
+    "off_t",
+    [
+      "int",
+      "off_t",
+      "int"
+    ]
+  ],
+  "lseek64": [
+    "off64_t",
+    [
+      "int",
+      "off64_t",
+      "int"
+    ]
+  ],
+  "select": [
+    "int",
+    [
+      "int",
+      "fd_set *",
+      "fd_set *",
+      "fd_set *",
+      "struct timeval *"
+    ]
+  ],
+  "obstack_room": [
+    "int",
+    [
+      "struct obstack *"
+    ]
+  ],
+  "obstack_1grow_fast": [
+    "void",
+    [
+      "struct obstack *",
+      "char"
+    ]
+  ],
+  "obstack_ptr_grow_fast": [
+    "void",
+    [
+      "struct obstack *",
+      "void *"
+    ]
+  ],
+  "obstack_int_grow_fast": [
+    "void",
+    [
+      "struct obstack *",
+      "int"
+    ]
+  ],
+  "obstack_blank_fast": [
+    "void",
+    [
+      "struct obstack *",
+      "int"
+    ]
+  ],
+  "getuid": [
+    "uid_t",
+    [
+      "void"
+    ]
+  ],
+  "getgid": [
+    "gid_t",
+    [
+      "void"
+    ]
+  ],
+  "geteuid": [
+    "uid_t",
+    [
+      "void"
+    ]
+  ],
+  "getegid": [
+    "gid_t",
+    [
+      "void"
+    ]
+  ],
+  "getgroups": [
+    "int",
+    [
+      "int",
+      "gid_t *"
+    ]
+  ],
+  "setnetgrent": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "getnetgrent": [
+    "int",
+    [
+      "char * *",
+      "char * *",
+      "char * *"
+    ]
+  ],
+  "getnetgrent_r": [
+    "int",
+    [
+      "char * *",
+      "char * *",
+      "char * *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "endnetgrent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "flockfile": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "ftrylockfile": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "funlockfile": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "__fsetlocking": [
+    "int",
+    [
+      "FILE *",
+      "int"
+    ]
+  ],
+  "getrusage": [
+    "int",
+    [
+      "int",
+      "struct rusage *"
+    ]
+  ],
+  "vtimes": [
+    "int",
+    [
+      "struct vtimes *",
+      "struct vtimes *"
+    ]
+  ],
+  "strcat": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict"
+    ]
+  ],
+  "wcscat": [
+    "wchar_t *",
+    [
+      "wchar_t * restrict",
+      "const wchar_t * restrict"
+    ]
+  ],
+  "closelog": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "umask": [
+    "mode_t",
+    [
+      "mode_t"
+    ]
+  ],
+  "getumask": [
+    "mode_t",
+    [
+      "void"
+    ]
+  ],
+  "chmod": [
+    "int",
+    [
+      "const char *",
+      "mode_t"
+    ]
+  ],
+  "fchmod": [
+    "int",
+    [
+      "int",
+      "mode_t"
+    ]
+  ],
+  "listen": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "wctrans": [
+    "wctrans_t",
+    [
+      "const char *"
+    ]
+  ],
+  "towctrans": [
+    "wint_t",
+    [
+      "wint_t",
+      "wctrans_t"
+    ]
+  ],
+  "towlower": [
+    "wint_t",
+    [
+      "wint_t"
+    ]
+  ],
+  "towupper": [
+    "wint_t",
+    [
+      "wint_t"
+    ]
+  ],
+  "argp_usage": [
+    "void",
+    [
+      "const struct argp_state *"
+    ]
+  ],
+  "argp_error": [
+    "void",
+    [
+      "const struct argp_state *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "argp_failure": [
+    "void",
+    [
+      "const struct argp_state *",
+      "int",
+      "int",
+      "const char *",
+      "..."
+    ]
+  ],
+  "argp_state_help": [
+    "void",
+    [
+      "const struct argp_state *",
+      "FILE *",
+      "unsigned"
+    ]
+  ],
+  "strerror": [
+    "char *",
+    [
+      "int"
+    ]
+  ],
+  "strerror_r": [
+    "char *",
+    [
+      "int",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "perror": [
+    "void",
+    [
+      "const char *"
+    ]
+  ],
+  "error": [
+    "void",
+    [
+      "int",
+      "int",
+      "const char *",
+      "..."
+    ]
+  ],
+  "error_at_line": [
+    "void",
+    [
+      "int",
+      "int",
+      "const char *",
+      "unsigned int",
+      "const char *",
+      "..."
+    ]
+  ],
+  "warn": [
+    "void",
+    [
+      "const char *",
+      "..."
+    ]
+  ],
+  "vwarn": [
+    "void",
+    [
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "warnx": [
+    "void",
+    [
+      "const char *",
+      "..."
+    ]
+  ],
+  "vwarnx": [
+    "void",
+    [
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "err": [
+    "void",
+    [
+      "int",
+      "const char *",
+      "..."
+    ]
+  ],
+  "verr": [
+    "void",
+    [
+      "int",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "errx": [
+    "void",
+    [
+      "int",
+      "const char *",
+      "..."
+    ]
+  ],
+  "verrx": [
+    "void",
+    [
+      "int",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "parse_printf_format": [
+    "size_t",
+    [
+      "const char *",
+      "size_t",
+      "int *"
+    ]
+  ],
+  "symlink": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "readlink": [
+    "ssize_t",
+    [
+      "const char *",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "canonicalize_file_name": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "realpath": [
+    "char *",
+    [
+      "const char * restrict",
+      "char * restrict"
+    ]
+  ],
+  "fnmatch": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "int"
+    ]
+  ],
+  "read": [
+    "ssize_t",
+    [
+      "int",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "pread": [
+    "ssize_t",
+    [
+      "int",
+      "void *",
+      "size_t",
+      "off_t"
+    ]
+  ],
+  "pread64": [
+    "ssize_t",
+    [
+      "int",
+      "void *",
+      "size_t",
+      "off64_t"
+    ]
+  ],
+  "write": [
+    "ssize_t",
+    [
+      "int",
+      "const void *",
+      "size_t"
+    ]
+  ],
+  "pwrite": [
+    "ssize_t",
+    [
+      "int",
+      "const void *",
+      "size_t",
+      "off_t"
+    ]
+  ],
+  "pwrite64": [
+    "ssize_t",
+    [
+      "int",
+      "const void *",
+      "size_t",
+      "off64_t"
+    ]
+  ],
+  "getpriority": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "setpriority": [
+    "int",
+    [
+      "int",
+      "int",
+      "int"
+    ]
+  ],
+  "nice": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "strfry": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "IFTODT": [
+    "int",
+    [
+      "mode_t"
+    ]
+  ],
+  "DTTOIF": [
+    "mode_t",
+    [
+      "int"
+    ]
+  ],
+  "getpid": [
+    "pid_t",
+    [
+      "void"
+    ]
+  ],
+  "getppid": [
+    "pid_t",
+    [
+      "void"
+    ]
+  ],
+  "clearerr": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "clearerr_unlocked": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "strtok": [
+    "char *",
+    [
+      "char * restrict",
+      "const char * restrict"
+    ]
+  ],
+  "wcstok": [
+    "wchar_t *",
+    [
+      "wchar_t *",
+      "const wchar_t *",
+      "wchar_t * *"
+    ]
+  ],
+  "strtok_r": [
+    "char *",
+    [
+      "char *",
+      "const char *",
+      "char * *"
+    ]
+  ],
+  "strsep": [
+    "char *",
+    [
+      "char * *",
+      "const char *"
+    ]
+  ],
+  "basename": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "dirname": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "sigpending": [
+    "int",
+    [
+      "sigset_t *"
+    ]
+  ],
+  "sendto": [
+    "ssize_t",
+    [
+      "int",
+      "const void *",
+      "size_t",
+      "int",
+      "struct sockaddr *",
+      "socklen_t"
+    ]
+  ],
+  "alloca": [
+    "void *",
+    [
+      "size_t"
+    ]
+  ],
+  "getcontext": [
+    "int",
+    [
+      "ucontext_t *"
+    ]
+  ],
+  "makecontext": [
+    "void",
+    [
+      "ucontext_t *",
+      "void ( * func )  ( void",
+      "int",
+      "..."
+    ]
+  ],
+  "setcontext": [
+    "int",
+    [
+      "const ucontext_t *"
+    ]
+  ],
+  "swapcontext": [
+    "int",
+    [
+      "ucontext_t * restrict",
+      "const ucontext_t * restrict"
+    ]
+  ],
+  "truncate": [
+    "int",
+    [
+      "const char *",
+      "off_t"
+    ]
+  ],
+  "truncate64": [
+    "int",
+    [
+      "const char *",
+      "off64_t"
+    ]
+  ],
+  "ftruncate": [
+    "int",
+    [
+      "int",
+      "off_t"
+    ]
+  ],
+  "ftruncate64": [
+    "int",
+    [
+      "int",
+      "off64_t"
+    ]
+  ],
+  "longjmp": [
+    "void",
+    [
+      "jmp_buf",
+      "int"
+    ]
+  ],
+  "setutent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getutent": [
+    "struct utmp *",
+    [
+      "void"
+    ]
+  ],
+  "endutent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getutid": [
+    "struct utmp *",
+    [
+      "const struct utmp *"
+    ]
+  ],
+  "getutline": [
+    "struct utmp *",
+    [
+      "const struct utmp *"
+    ]
+  ],
+  "pututline": [
+    "struct utmp *",
+    [
+      "const struct utmp *"
+    ]
+  ],
+  "getutent_r": [
+    "int",
+    [
+      "struct utmp *",
+      "struct utmp * *"
+    ]
+  ],
+  "getutid_r": [
+    "int",
+    [
+      "const struct utmp *",
+      "struct utmp *",
+      "struct utmp * *"
+    ]
+  ],
+  "getutline_r": [
+    "int",
+    [
+      "const struct utmp *",
+      "struct utmp *",
+      "struct utmp * *"
+    ]
+  ],
+  "utmpname": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "updwtmp": [
+    "void",
+    [
+      "const char *",
+      "const struct utmp *"
+    ]
+  ],
+  "fegetround": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "fesetround": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "link": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "strcoll": [
+    "int",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "wcscoll": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *"
+    ]
+  ],
+  "strxfrm": [
+    "size_t",
+    [
+      "char * restrict",
+      "const char * restrict",
+      "size_t"
+    ]
+  ],
+  "wcsxfrm": [
+    "size_t",
+    [
+      "wchar_t * restrict",
+      "const wchar_t *",
+      "size_t"
+    ]
+  ],
+  "rand": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "srand": [
+    "void",
+    [
+      "unsigned int"
+    ]
+  ],
+  "rand_r": [
+    "int",
+    [
+      "unsigned int *"
+    ]
+  ],
+  "getpeername": [
+    "int",
+    [
+      "int",
+      "struct sockaddr *",
+      "socklen_t *"
+    ]
+  ],
+  "ngettext": [
+    "char *",
+    [
+      "const char *",
+      "const char *",
+      "unsigned long int"
+    ]
+  ],
+  "dngettext": [
+    "char *",
+    [
+      "const char *",
+      "const char *",
+      "const char *",
+      "unsigned long int"
+    ]
+  ],
+  "dcngettext": [
+    "char *",
+    [
+      "const char *",
+      "const char *",
+      "const char *",
+      "unsigned long int",
+      "int"
+    ]
+  ],
+  "ioctl": [
+    "int",
+    [
+      "int",
+      "int",
+      "..."
+    ]
+  ],
+  "fmod": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "fmodf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "fmodl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "drem": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "dremf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "dreml": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "remainder": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "remainderf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "remainderl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "putpwent": [
+    "int",
+    [
+      "const struct passwd *",
+      "FILE *"
+    ]
+  ],
+  "mbsinit": [
+    "int",
+    [
+      "const mbstate_t *"
+    ]
+  ],
+  "socket": [
+    "int",
+    [
+      "int",
+      "int",
+      "int"
+    ]
+  ],
+  "connect": [
+    "int",
+    [
+      "int",
+      "struct sockaddr *",
+      "socklen_t"
+    ]
+  ],
+  "btowc": [
+    "wint_t",
+    [
+      "int"
+    ]
+  ],
+  "wctob": [
+    "int",
+    [
+      "wint_t"
+    ]
+  ],
+  "mbrtowc": [
+    "size_t",
+    [
+      "wchar_t * restrict",
+      "const char * restrict",
+      "size_t",
+      "mbstate_t * restrict"
+    ]
+  ],
+  "mbrlen": [
+    "size_t",
+    [
+      "const char * restrict",
+      "size_t",
+      "mbstate_t *"
+    ]
+  ],
+  "wcrtomb": [
+    "size_t",
+    [
+      "char * restrict",
+      "wchar_t",
+      "mbstate_t * restrict"
+    ]
+  ],
+  "wait3": [
+    "pid_t",
+    [
+      "int *",
+      "int",
+      "struct rusage *"
+    ]
+  ],
+  "ftw": [
+    "int",
+    [
+      "const char *",
+      "__ftw_func_t",
+      "int"
+    ]
+  ],
+  "ftw64": [
+    "int",
+    [
+      "const char *",
+      "__ftw64_func_t",
+      "int"
+    ]
+  ],
+  "nftw": [
+    "int",
+    [
+      "const char *",
+      "__nftw_func_t",
+      "int",
+      "int"
+    ]
+  ],
+  "nftw64": [
+    "int",
+    [
+      "const char *",
+      "__nftw64_func_t",
+      "int",
+      "int"
+    ]
+  ],
+  "fflush": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "fflush_unlocked": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "_flushlbf": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__fpurge": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "mbtowc": [
+    "int",
+    [
+      "wchar_t * restrict",
+      "const char * restrict",
+      "size_t"
+    ]
+  ],
+  "wctomb": [
+    "int",
+    [
+      "char *",
+      "wchar_t"
+    ]
+  ],
+  "mblen": [
+    "int",
+    [
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "feof": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "feof_unlocked": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "ferror": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "ferror_unlocked": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "inet_aton": [
+    "int",
+    [
+      "const char *",
+      "struct in_addr *"
+    ]
+  ],
+  "inet_addr": [
+    "uint32_t",
+    [
+      "const char *"
+    ]
+  ],
+  "inet_network": [
+    "uint32_t",
+    [
+      "const char *"
+    ]
+  ],
+  "inet_ntoa": [
+    "char *",
+    [
+      "struct in_addr"
+    ]
+  ],
+  "inet_makeaddr": [
+    "struct in_addr",
+    [
+      "uint32_t",
+      "uint32_t"
+    ]
+  ],
+  "inet_lnaof": [
+    "uint32_t",
+    [
+      "struct in_addr"
+    ]
+  ],
+  "inet_netof": [
+    "uint32_t",
+    [
+      "struct in_addr"
+    ]
+  ],
+  "inet_pton": [
+    "int",
+    [
+      "int",
+      "const char *",
+      "void *"
+    ]
+  ],
+  "inet_ntop": [
+    "const char *",
+    [
+      "int",
+      "const void *",
+      "char *",
+      "socklen_t"
+    ]
+  ],
+  "mount": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "const char *",
+      "unsigned long int",
+      "const void *"
+    ]
+  ],
+  "umount2": [
+    "int",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "umount": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "getcwd": [
+    "char *",
+    [
+      "char *",
+      "size_t"
+    ]
+  ],
+  "getwd": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "get_current_dir_name": [
+    "char *",
+    [
+      "void"
+    ]
+  ],
+  "chdir": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "fchdir": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "readv": [
+    "ssize_t",
+    [
+      "int",
+      "const struct iovec *",
+      "int"
+    ]
+  ],
+  "writev": [
+    "ssize_t",
+    [
+      "int",
+      "const struct iovec *",
+      "int"
+    ]
+  ],
+  "addseverity": [
+    "int",
+    [
+      "int",
+      "const char *"
+    ]
+  ],
+  "exp": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "expf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "expl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "exp2": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "exp2f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "exp2l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "exp10": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "exp10f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "exp10l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "pow10": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "pow10f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "pow10l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "log": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "logf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "logl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "log10": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "log10f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "log10l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "log2": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "log2f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "log2l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "logb": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "logbf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "logbl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "ilogb": [
+    "int",
+    [
+      "double"
+    ]
+  ],
+  "ilogbf": [
+    "int",
+    [
+      "float"
+    ]
+  ],
+  "ilogbl": [
+    "int",
+    [
+      "long double"
+    ]
+  ],
+  "llogb": [
+    "long int",
+    [
+      "double"
+    ]
+  ],
+  "llogbf": [
+    "long int",
+    [
+      "float"
+    ]
+  ],
+  "llogbl": [
+    "long int",
+    [
+      "long double"
+    ]
+  ],
+  "pow": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "powf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "powl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "sqrt": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "sqrtf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "sqrtl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "cbrt": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "cbrtf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "cbrtl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "hypot": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "hypotf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "hypotl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "expm1": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "expm1f": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "expm1l": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "log1p": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "log1pf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "log1pl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "cexp": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "cexpf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "cexpl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "clog": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "clogf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "clogl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "clog10": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "clog10f": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "clog10l": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "csqrt": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "csqrtf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "csqrtl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "cpow": [
+    "complex double",
+    [
+      "complex double",
+      "complex double"
+    ]
+  ],
+  "cpowf": [
+    "complex float",
+    [
+      "complex float",
+      "complex float"
+    ]
+  ],
+  "cpowl": [
+    "complex long double",
+    [
+      "complex long double",
+      "complex long double"
+    ]
+  ],
+  "getsockopt": [
+    "int",
+    [
+      "int",
+      "int",
+      "int",
+      "void *",
+      "socklen_t *"
+    ]
+  ],
+  "setsockopt": [
+    "int",
+    [
+      "int",
+      "int",
+      "int",
+      "const void *",
+      "socklen_t"
+    ]
+  ],
+  "regexec": [
+    "int",
+    [
+      "const regex_t * restrict",
+      "const char * restrict",
+      "size_t",
+      "regmatch_t",
+      "int"
+    ]
+  ],
+  "fputc": [
+    "int",
+    [
+      "int",
+      "FILE *"
+    ]
+  ],
+  "fputwc": [
+    "wint_t",
+    [
+      "wchar_t",
+      "FILE *"
+    ]
+  ],
+  "fputc_unlocked": [
+    "int",
+    [
+      "int",
+      "FILE *"
+    ]
+  ],
+  "fputwc_unlocked": [
+    "wint_t",
+    [
+      "wchar_t",
+      "FILE *"
+    ]
+  ],
+  "putc": [
+    "int",
+    [
+      "int",
+      "FILE *"
+    ]
+  ],
+  "putwc": [
+    "wint_t",
+    [
+      "wchar_t",
+      "FILE *"
+    ]
+  ],
+  "putc_unlocked": [
+    "int",
+    [
+      "int",
+      "FILE *"
+    ]
+  ],
+  "putwc_unlocked": [
+    "wint_t",
+    [
+      "wchar_t",
+      "FILE *"
+    ]
+  ],
+  "putchar": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "putwchar": [
+    "wint_t",
+    [
+      "wchar_t"
+    ]
+  ],
+  "putchar_unlocked": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "putwchar_unlocked": [
+    "wint_t",
+    [
+      "wchar_t"
+    ]
+  ],
+  "fputs": [
+    "int",
+    [
+      "const char *",
+      "FILE *"
+    ]
+  ],
+  "fputws": [
+    "int",
+    [
+      "const wchar_t *",
+      "FILE *"
+    ]
+  ],
+  "fputs_unlocked": [
+    "int",
+    [
+      "const char *",
+      "FILE *"
+    ]
+  ],
+  "fputws_unlocked": [
+    "int",
+    [
+      "const wchar_t *",
+      "FILE *"
+    ]
+  ],
+  "puts": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "putw": [
+    "int",
+    [
+      "int",
+      "FILE *"
+    ]
+  ],
+  "ungetc": [
+    "int",
+    [
+      "int",
+      "FILE *"
+    ]
+  ],
+  "ungetwc": [
+    "wint_t",
+    [
+      "wint_t",
+      "FILE *"
+    ]
+  ],
+  "popen": [
+    "FILE *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "pclose": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "ceil": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "ceilf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "ceill": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "floor": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "floorf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "floorl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "trunc": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "truncf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "truncl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "rint": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "rintf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "rintl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "nearbyint": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "nearbyintf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "nearbyintl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "round": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "roundf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "roundl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "roundeven": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "roundevenf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "roundevenl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "lrint": [
+    "long int",
+    [
+      "double"
+    ]
+  ],
+  "lrintf": [
+    "long int",
+    [
+      "float"
+    ]
+  ],
+  "lrintl": [
+    "long int",
+    [
+      "long double"
+    ]
+  ],
+  "llrint": [
+    "long long int",
+    [
+      "double"
+    ]
+  ],
+  "llrintf": [
+    "long long int",
+    [
+      "float"
+    ]
+  ],
+  "llrintl": [
+    "long long int",
+    [
+      "long double"
+    ]
+  ],
+  "lround": [
+    "long int",
+    [
+      "double"
+    ]
+  ],
+  "lroundf": [
+    "long int",
+    [
+      "float"
+    ]
+  ],
+  "lroundl": [
+    "long int",
+    [
+      "long double"
+    ]
+  ],
+  "llround": [
+    "long long int",
+    [
+      "double"
+    ]
+  ],
+  "llroundf": [
+    "long long int",
+    [
+      "float"
+    ]
+  ],
+  "llroundl": [
+    "long long int",
+    [
+      "long double"
+    ]
+  ],
+  "fromfp": [
+    "intmax_t",
+    [
+      "double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "fromfpf": [
+    "intmax_t",
+    [
+      "float",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "fromfpl": [
+    "intmax_t",
+    [
+      "long double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "ufromfp": [
+    "uintmax_t",
+    [
+      "double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "ufromfpf": [
+    "uintmax_t",
+    [
+      "float",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "ufromfpl": [
+    "uintmax_t",
+    [
+      "long double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "fromfpx": [
+    "intmax_t",
+    [
+      "double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "fromfpxf": [
+    "intmax_t",
+    [
+      "float",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "fromfpxl": [
+    "intmax_t",
+    [
+      "long double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "ufromfpx": [
+    "uintmax_t",
+    [
+      "double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "ufromfpxf": [
+    "uintmax_t",
+    [
+      "float",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "ufromfpxl": [
+    "uintmax_t",
+    [
+      "long double",
+      "int",
+      "unsigned int"
+    ]
+  ],
+  "modf": [
+    "double",
+    [
+      "double",
+      "double *"
+    ]
+  ],
+  "modff": [
+    "float",
+    [
+      "float",
+      "float *"
+    ]
+  ],
+  "modfl": [
+    "long double",
+    [
+      "long double",
+      "long double *"
+    ]
+  ],
+  "cfgetospeed": [
+    "speed_t",
+    [
+      "const struct termios *"
+    ]
+  ],
+  "cfgetispeed": [
+    "speed_t",
+    [
+      "const struct termios *"
+    ]
+  ],
+  "cfsetospeed": [
+    "int",
+    [
+      "struct termios *",
+      "speed_t"
+    ]
+  ],
+  "cfsetispeed": [
+    "int",
+    [
+      "struct termios *",
+      "speed_t"
+    ]
+  ],
+  "cfsetspeed": [
+    "int",
+    [
+      "struct termios *",
+      "speed_t"
+    ]
+  ],
+  "ftell": [
+    "long int",
+    [
+      "FILE *"
+    ]
+  ],
+  "ftello": [
+    "off_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "ftello64": [
+    "off64_t",
+    [
+      "FILE *"
+    ]
+  ],
+  "fseek": [
+    "int",
+    [
+      "FILE *",
+      "long int",
+      "int"
+    ]
+  ],
+  "fseeko": [
+    "int",
+    [
+      "FILE *",
+      "off_t",
+      "int"
+    ]
+  ],
+  "fseeko64": [
+    "int",
+    [
+      "FILE *",
+      "off64_t",
+      "int"
+    ]
+  ],
+  "rewind": [
+    "void",
+    [
+      "FILE *"
+    ]
+  ],
+  "scanf": [
+    "int",
+    [
+      "const char *",
+      "..."
+    ]
+  ],
+  "wscanf": [
+    "int",
+    [
+      "const wchar_t *",
+      "..."
+    ]
+  ],
+  "fscanf": [
+    "int",
+    [
+      "FILE *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "fwscanf": [
+    "int",
+    [
+      "FILE *",
+      "const wchar_t *",
+      "..."
+    ]
+  ],
+  "sscanf": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "swscanf": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *",
+      "..."
+    ]
+  ],
+  "mallopt": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "getnetbyname": [
+    "struct netent *",
+    [
+      "const char *"
+    ]
+  ],
+  "getnetbyaddr": [
+    "struct netent *",
+    [
+      "uint32_t",
+      "int"
+    ]
+  ],
+  "setnetent": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "getnetent": [
+    "struct netent *",
+    [
+      "void"
+    ]
+  ],
+  "endnetent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "tcgetattr": [
+    "int",
+    [
+      "int",
+      "struct termios *"
+    ]
+  ],
+  "tcsetattr": [
+    "int",
+    [
+      "int",
+      "int",
+      "const struct termios *"
+    ]
+  ],
+  "aio_error": [
+    "int",
+    [
+      "const struct aiocb *"
+    ]
+  ],
+  "aio_error64": [
+    "int",
+    [
+      "const struct aiocb64 *"
+    ]
+  ],
+  "aio_return": [
+    "ssize_t",
+    [
+      "struct aiocb *"
+    ]
+  ],
+  "aio_return64": [
+    "ssize_t",
+    [
+      "struct aiocb64 *"
+    ]
+  ],
+  "strtol": [
+    "long int",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstol": [
+    "long int",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtoul": [
+    "unsigned long int",
+    [
+      "const char * retrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstoul": [
+    "unsigned long int",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtoll": [
+    "long long int",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstoll": [
+    "long long int",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtoq": [
+    "long long int",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstoq": [
+    "long long int",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtoull": [
+    "unsigned long long int",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstoull": [
+    "unsigned long long int",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtouq": [
+    "unsigned long long int",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstouq": [
+    "unsigned long long int",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtoimax": [
+    "intmax_t",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstoimax": [
+    "intmax_t",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "strtoumax": [
+    "uintmax_t",
+    [
+      "const char * restrict",
+      "char * * restrict",
+      "int"
+    ]
+  ],
+  "wcstoumax": [
+    "uintmax_t",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict",
+      "int"
+    ]
+  ],
+  "atol": [
+    "long int",
+    [
+      "const char *"
+    ]
+  ],
+  "atoi": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "atoll": [
+    "long long int",
+    [
+      "const char *"
+    ]
+  ],
+  "hcreate": [
+    "int",
+    [
+      "size_t"
+    ]
+  ],
+  "hdestroy": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "hsearch": [
+    "ENTRY *",
+    [
+      "ENTRY",
+      "ACTION"
+    ]
+  ],
+  "hcreate_r": [
+    "int",
+    [
+      "size_t",
+      "struct hsearch_data *"
+    ]
+  ],
+  "hdestroy_r": [
+    "void",
+    [
+      "struct hsearch_data *"
+    ]
+  ],
+  "hsearch_r": [
+    "int",
+    [
+      "ENTRY",
+      "ACTION",
+      "ENTRY * *",
+      "struct hsearch_data *"
+    ]
+  ],
+  "abs": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "labs": [
+    "long int",
+    [
+      "long int"
+    ]
+  ],
+  "llabs": [
+    "long long int",
+    [
+      "long long int"
+    ]
+  ],
+  "imaxabs": [
+    "intmax_t",
+    [
+      "intmax_t"
+    ]
+  ],
+  "fabs": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "fabsf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "fabsl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "cabs": [
+    "double",
+    [
+      "complex double"
+    ]
+  ],
+  "cabsf": [
+    "float",
+    [
+      "complex float"
+    ]
+  ],
+  "cabsl": [
+    "long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "textdomain": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "bindtextdomain": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "asprintf": [
+    "int",
+    [
+      "char * *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "obstack_printf": [
+    "int",
+    [
+      "struct obstack *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "frexp": [
+    "double",
+    [
+      "double",
+      "int *"
+    ]
+  ],
+  "frexpf": [
+    "float",
+    [
+      "float",
+      "int *"
+    ]
+  ],
+  "frexpl": [
+    "long double",
+    [
+      "long double",
+      "int *"
+    ]
+  ],
+  "ldexp": [
+    "double",
+    [
+      "double",
+      "int"
+    ]
+  ],
+  "ldexpf": [
+    "float",
+    [
+      "float",
+      "int"
+    ]
+  ],
+  "ldexpl": [
+    "long double",
+    [
+      "long double",
+      "int"
+    ]
+  ],
+  "scalb": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "scalbf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "scalbl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "scalbn": [
+    "double",
+    [
+      "double",
+      "int"
+    ]
+  ],
+  "scalbnf": [
+    "float",
+    [
+      "float",
+      "int"
+    ]
+  ],
+  "scalbnl": [
+    "long double",
+    [
+      "long double",
+      "int"
+    ]
+  ],
+  "scalbln": [
+    "double",
+    [
+      "double",
+      "long int"
+    ]
+  ],
+  "scalblnf": [
+    "float",
+    [
+      "float",
+      "long int"
+    ]
+  ],
+  "scalblnl": [
+    "long double",
+    [
+      "long double",
+      "long int"
+    ]
+  ],
+  "significand": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "significandf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "significandl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "islower": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isupper": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isalpha": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isdigit": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isalnum": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isxdigit": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "ispunct": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isspace": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isblank": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isgraph": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isprint": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "iscntrl": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "isascii": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "syslog": [
+    "void",
+    [
+      "int",
+      "const char *",
+      "..."
+    ]
+  ],
+  "vsyslog": [
+    "void",
+    [
+      "int",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "uname": [
+    "int",
+    [
+      "struct utsname *"
+    ]
+  ],
+  "gethostname": [
+    "int",
+    [
+      "char *",
+      "size_t"
+    ]
+  ],
+  "sethostname": [
+    "int",
+    [
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "getdomainnname": [
+    "int",
+    [
+      "char *",
+      "size_t"
+    ]
+  ],
+  "setdomainname": [
+    "int",
+    [
+      "const char *",
+      "size_t"
+    ]
+  ],
+  "gethostid": [
+    "long int",
+    [
+      "void"
+    ]
+  ],
+  "sethostid": [
+    "int",
+    [
+      "long int"
+    ]
+  ],
+  "tsearch": [
+    "void *",
+    [
+      "const void *",
+      "void * *",
+      "comparison_fn_t"
+    ]
+  ],
+  "tfind": [
+    "void *",
+    [
+      "const void *",
+      "void * const *",
+      "comparison_fn_t"
+    ]
+  ],
+  "tdelete": [
+    "void *",
+    [
+      "const void *",
+      "void * *",
+      "comparison_fn_t"
+    ]
+  ],
+  "tdestroy": [
+    "void",
+    [
+      "void *",
+      "__free_fn_t"
+    ]
+  ],
+  "twalk": [
+    "void",
+    [
+      "const void *",
+      "__action_fn_t"
+    ]
+  ],
+  "getpass": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "mlock": [
+    "int",
+    [
+      "const void *",
+      "size_t"
+    ]
+  ],
+  "munlock": [
+    "int",
+    [
+      "const void *",
+      "size_t"
+    ]
+  ],
+  "mlockall": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "munlockall": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "raise": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "gsignal": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "rewinddir": [
+    "void",
+    [
+      "DIR *"
+    ]
+  ],
+  "telldir": [
+    "long int",
+    [
+      "DIR *"
+    ]
+  ],
+  "seekdir": [
+    "void",
+    [
+      "DIR *",
+      "long int"
+    ]
+  ],
+  "iconv_open": [
+    "iconv_t",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "iconv_close": [
+    "int",
+    [
+      "iconv_t"
+    ]
+  ],
+  "iconv": [
+    "size_t",
+    [
+      "iconv_t",
+      "char * *",
+      "size_t *",
+      "char * *",
+      "size_t *"
+    ]
+  ],
+  "sigaction": [
+    "int",
+    [
+      "int",
+      "const struct sigaction * restrict",
+      "struct sigaction * restrict"
+    ]
+  ],
+  "drand48": [
+    "double",
+    [
+      "void"
+    ]
+  ],
+  "erand48": [
+    "double",
+    [
+      "unsigned short int"
+    ]
+  ],
+  "lrand48": [
+    "long int",
+    [
+      "void"
+    ]
+  ],
+  "nrand48": [
+    "long int",
+    [
+      "unsigned short int"
+    ]
+  ],
+  "mrand48": [
+    "long int",
+    [
+      "void"
+    ]
+  ],
+  "jrand48": [
+    "long int",
+    [
+      "unsigned short int"
+    ]
+  ],
+  "srand48": [
+    "void",
+    [
+      "long int"
+    ]
+  ],
+  "seed48": [
+    "unsigned short int *",
+    [
+      "unsigned short int"
+    ]
+  ],
+  "lcong48": [
+    "void",
+    [
+      "unsigned short int"
+    ]
+  ],
+  "drand48_r": [
+    "int",
+    [
+      "struct drand48_data *",
+      "double *"
+    ]
+  ],
+  "erand48_r": [
+    "int",
+    [
+      "unsigned short int",
+      "struct drand48_data *",
+      "double *"
+    ]
+  ],
+  "lrand48_r": [
+    "int",
+    [
+      "struct drand48_data *",
+      "long int *"
+    ]
+  ],
+  "nrand48_r": [
+    "int",
+    [
+      "unsigned short int",
+      "struct drand48_data *",
+      "long int *"
+    ]
+  ],
+  "mrand48_r": [
+    "int",
+    [
+      "struct drand48_data *",
+      "long int *"
+    ]
+  ],
+  "jrand48_r": [
+    "int",
+    [
+      "unsigned short int",
+      "struct drand48_data *",
+      "long int *"
+    ]
+  ],
+  "srand48_r": [
+    "int",
+    [
+      "long int",
+      "struct drand48_data *"
+    ]
+  ],
+  "seed48_r": [
+    "int",
+    [
+      "unsigned short int",
+      "struct drand48_data *"
+    ]
+  ],
+  "lcong48_r": [
+    "int",
+    [
+      "unsigned short int",
+      "struct drand48_data *"
+    ]
+  ],
+  "cfmakeraw": [
+    "void",
+    [
+      "struct termios *"
+    ]
+  ],
+  "openpty": [
+    "int",
+    [
+      "int *",
+      "int *",
+      "char *",
+      "const struct termios *",
+      "const struct winsize *"
+    ]
+  ],
+  "forkpty": [
+    "int",
+    [
+      "int *",
+      "char *",
+      "const struct termios *",
+      "const struct winsize *"
+    ]
+  ],
+  "exit": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "times": [
+    "clock_t",
+    [
+      "struct tms *"
+    ]
+  ],
+  "aio_cancel": [
+    "int",
+    [
+      "int",
+      "struct aiocb *"
+    ]
+  ],
+  "aio_cancel64": [
+    "int",
+    [
+      "int",
+      "struct aiocb64 *"
+    ]
+  ],
+  "printf": [
+    "int",
+    [
+      "const char *",
+      "..."
+    ]
+  ],
+  "wprintf": [
+    "int",
+    [
+      "const wchar_t *",
+      "..."
+    ]
+  ],
+  "fprintf": [
+    "int",
+    [
+      "FILE *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "fwprintf": [
+    "int",
+    [
+      "FILE *",
+      "const wchar_t *",
+      "..."
+    ]
+  ],
+  "sprintf": [
+    "int",
+    [
+      "char *",
+      "const char *",
+      "..."
+    ]
+  ],
+  "swprintf": [
+    "int",
+    [
+      "wchar_t *",
+      "size_t",
+      "const wchar_t *",
+      "..."
+    ]
+  ],
+  "snprintf": [
+    "int",
+    [
+      "char *",
+      "size_t",
+      "const char *",
+      "..."
+    ]
+  ],
+  "regcomp": [
+    "int",
+    [
+      "regex_t * restrict",
+      "const char * restrict",
+      "int"
+    ]
+  ],
+  "pathconf": [
+    "long int",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "fpathconf": [
+    "long int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "getpagesize": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "get_phys_pages": [
+    "long int",
+    [
+      "void"
+    ]
+  ],
+  "get_avphys_pages": [
+    "long int",
+    [
+      "void"
+    ]
+  ],
+  "getpwuid": [
+    "struct passwd *",
+    [
+      "uid_t"
+    ]
+  ],
+  "getpwuid_r": [
+    "int",
+    [
+      "uid_t",
+      "struct passwd *",
+      "char *",
+      "size_t",
+      "struct passwd * *"
+    ]
+  ],
+  "getpwnam": [
+    "struct passwd *",
+    [
+      "const char *"
+    ]
+  ],
+  "getpwnam_r": [
+    "int",
+    [
+      "const char *",
+      "struct passwd *",
+      "char *",
+      "size_t",
+      "struct passwd * *"
+    ]
+  ],
+  "recv": [
+    "ssize_t",
+    [
+      "int",
+      "void *",
+      "size_t",
+      "int"
+    ]
+  ],
+  "access": [
+    "int",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "strfromd": [
+    "int",
+    [
+      "char * restrict",
+      "size_t",
+      "const char * restrict",
+      "double"
+    ]
+  ],
+  "strfromf": [
+    "int",
+    [
+      "char * restrict",
+      "size_t",
+      "const char * restrict",
+      "float"
+    ]
+  ],
+  "strfroml": [
+    "int",
+    [
+      "char * restrict",
+      "size_t",
+      "const char * restrict",
+      "long double"
+    ]
+  ],
+  "kill": [
+    "int",
+    [
+      "pid_t",
+      "int"
+    ]
+  ],
+  "killpg": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "getauxval": [
+    "unsigned long int",
+    [
+      "unsigned long int"
+    ]
+  ],
+  "obstack_base": [
+    "void *",
+    [
+      "struct obstack *"
+    ]
+  ],
+  "obstack_next_free": [
+    "void *",
+    [
+      "struct obstack *"
+    ]
+  ],
+  "malloc": [
+    "void *",
+    [
+      "size_t"
+    ]
+  ],
+  "fopen": [
+    "FILE *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "fopen64": [
+    "FILE *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "freopen": [
+    "FILE *",
+    [
+      "const char *",
+      "const char *",
+      "FILE *"
+    ]
+  ],
+  "freopen64": [
+    "FILE *",
+    [
+      "const char *",
+      "const char *",
+      "FILE *"
+    ]
+  ],
+  "__freadable": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "__fwritable": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "__freading": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "__fwriting": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "mtrace": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "muntrace": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "clock": [
+    "clock_t",
+    [
+      "void"
+    ]
+  ],
+  "scandir": [
+    "int",
+    [
+      "const char *",
+      "struct dirent * * *",
+      "int ( * selector )  ( const struct dirent *",
+      "int ( * cmp )  ( const struct dirent *",
+      "const struct dirent * *"
+    ]
+  ],
+  "alphasort": [
+    "int",
+    [
+      "const struct dirent * *",
+      "const struct dirent * *"
+    ]
+  ],
+  "versionsort": [
+    "int",
+    [
+      "const struct dirent * *",
+      "const struct dirent * *"
+    ]
+  ],
+  "scandir64": [
+    "int",
+    [
+      "const char *",
+      "struct dirent64 * * *",
+      "int ( * selector )  ( const struct dirent64 *",
+      "int ( * cmp )  ( const struct dirent64 *",
+      "const struct dirent64 * *"
+    ]
+  ],
+  "alphasort64": [
+    "int",
+    [
+      "const struct dirent64 * *",
+      "const struct dirent * *"
+    ]
+  ],
+  "versionsort64": [
+    "int",
+    [
+      "const struct dirent64 * *",
+      "const struct dirent64 * *"
+    ]
+  ],
+  "l64a": [
+    "char *",
+    [
+      "long int"
+    ]
+  ],
+  "a64l": [
+    "long int",
+    [
+      "const char *"
+    ]
+  ],
+  "fgetgrent": [
+    "struct group *",
+    [
+      "FILE *"
+    ]
+  ],
+  "fgetgrent_r": [
+    "int",
+    [
+      "FILE *",
+      "struct group *",
+      "char *",
+      "size_t",
+      "struct group * *"
+    ]
+  ],
+  "setgrent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getgrent": [
+    "struct group *",
+    [
+      "void"
+    ]
+  ],
+  "getgrent_r": [
+    "int",
+    [
+      "struct group *",
+      "char *",
+      "size_t",
+      "struct group * *"
+    ]
+  ],
+  "endgrent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "sigemptyset": [
+    "int",
+    [
+      "sigset_t *"
+    ]
+  ],
+  "sigfillset": [
+    "int",
+    [
+      "sigset_t *"
+    ]
+  ],
+  "sigaddset": [
+    "int",
+    [
+      "sigset_t *",
+      "int"
+    ]
+  ],
+  "sigdelset": [
+    "int",
+    [
+      "sigset_t *",
+      "int"
+    ]
+  ],
+  "sigismember": [
+    "int",
+    [
+      "const sigset_t *",
+      "int"
+    ]
+  ],
+  "mbsrtowcs": [
+    "size_t",
+    [
+      "wchar_t * restrict",
+      "const char * * restrict",
+      "size_t",
+      "mbstate_t * restrict"
+    ]
+  ],
+  "wcsrtombs": [
+    "size_t",
+    [
+      "char * restrict",
+      "const wchar_t * * restrict",
+      "size_t",
+      "mbstate_t * restrict"
+    ]
+  ],
+  "mbsnrtowcs": [
+    "size_t",
+    [
+      "wchar_t * restrict",
+      "const char * * restrict",
+      "size_t",
+      "size_t",
+      "mbstate_t * restrict"
+    ]
+  ],
+  "wcsnrtombs": [
+    "size_t",
+    [
+      "char * restrict",
+      "const wchar_t * * restrict",
+      "size_t",
+      "size_t",
+      "mbstate_t * restrict"
+    ]
+  ],
+  "setlogmask": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "bind": [
+    "int",
+    [
+      "int",
+      "struct sockaddr *",
+      "socklen_t"
+    ]
+  ],
+  "fmin": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "fminf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "fminl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "fmax": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "fmaxf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "fmaxl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "fminmag": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "fminmagf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "fminmagl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "fmaxmag": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "fmaxmagf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "fmaxmagl": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "fdim": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "fdimf": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "fdiml": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "fma": [
+    "double",
+    [
+      "double",
+      "double",
+      "double"
+    ]
+  ],
+  "fmaf": [
+    "float",
+    [
+      "float",
+      "float",
+      "float"
+    ]
+  ],
+  "fmal": [
+    "long double",
+    [
+      "long double",
+      "long double",
+      "long double"
+    ]
+  ],
+  "strtod": [
+    "double",
+    [
+      "const char * restrict",
+      "char * * restrict"
+    ]
+  ],
+  "strtof": [
+    "float",
+    [
+      "const char *",
+      "char * *"
+    ]
+  ],
+  "strtold": [
+    "long double",
+    [
+      "const char *",
+      "char * *"
+    ]
+  ],
+  "wcstod": [
+    "double",
+    [
+      "const wchar_t * restrict",
+      "wchar_t * * restrict"
+    ]
+  ],
+  "wcstof": [
+    "float",
+    [
+      "const wchar_t *",
+      "wchar_t * *"
+    ]
+  ],
+  "wcstold": [
+    "long double",
+    [
+      "const wchar_t *",
+      "wchar_t * *"
+    ]
+  ],
+  "atof": [
+    "double",
+    [
+      "const char *"
+    ]
+  ],
+  "ctermid": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "realloc": [
+    "void *",
+    [
+      "void *",
+      "size_t"
+    ]
+  ],
+  "gethostbyname": [
+    "struct hostent *",
+    [
+      "const char *"
+    ]
+  ],
+  "gethostbyname2": [
+    "struct hostent *",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "gethostbyaddr": [
+    "struct hostent *",
+    [
+      "const void *",
+      "socklen_t",
+      "int"
+    ]
+  ],
+  "gethostbyname_r": [
+    "int",
+    [
+      "const char * restrict",
+      "struct hostent * restrict",
+      "char * restrict",
+      "size_t",
+      "struct hostent * * restrict",
+      "int * restrict"
+    ]
+  ],
+  "gethostbyname2_r": [
+    "int",
+    [
+      "const char *",
+      "int",
+      "struct hostent * restrict",
+      "char * restrict",
+      "size_t",
+      "struct hostent * * restrict",
+      "int * restrict"
+    ]
+  ],
+  "gethostbyaddr_r": [
+    "int",
+    [
+      "const void *",
+      "socklen_t",
+      "int",
+      "struct hostent * restrict",
+      "char * restrict",
+      "size_t",
+      "struct hostent * * restrict",
+      "int * restrict"
+    ]
+  ],
+  "sethostent": [
+    "void",
+    [
+      "int"
+    ]
+  ],
+  "gethostent": [
+    "struct hostent *",
+    [
+      "void"
+    ]
+  ],
+  "endhostent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "free": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "cfree": [
+    "void",
+    [
+      "void *"
+    ]
+  ],
+  "fdopen": [
+    "FILE *",
+    [
+      "int",
+      "const char *"
+    ]
+  ],
+  "fileno": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "fileno_unlocked": [
+    "int",
+    [
+      "FILE *"
+    ]
+  ],
+  "sigsuspend": [
+    "int",
+    [
+      "const sigset_t *"
+    ]
+  ],
+  "fread": [
+    "size_t",
+    [
+      "void *",
+      "size_t",
+      "size_t",
+      "FILE *"
+    ]
+  ],
+  "fread_unlocked": [
+    "size_t",
+    [
+      "void *",
+      "size_t",
+      "size_t",
+      "FILE *"
+    ]
+  ],
+  "fwrite": [
+    "size_t",
+    [
+      "const void *",
+      "size_t",
+      "size_t",
+      "FILE *"
+    ]
+  ],
+  "fwrite_unlocked": [
+    "size_t",
+    [
+      "const void *",
+      "size_t",
+      "size_t",
+      "FILE *"
+    ]
+  ],
+  "feclearexcept": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "feraiseexcept": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "fesetexcept": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "fetestexcept": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "fegetexceptflag": [
+    "int",
+    [
+      "fexcept_t *",
+      "int"
+    ]
+  ],
+  "fesetexceptflag": [
+    "int",
+    [
+      "const fexcept_t *",
+      "int"
+    ]
+  ],
+  "fetestexceptflag": [
+    "int",
+    [
+      "const fexcept_t *",
+      "int"
+    ]
+  ],
+  "totalorder": [
+    "int",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "totalorderf": [
+    "int",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "totalorderl": [
+    "int",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "totalordermag": [
+    "int",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "totalordermagf": [
+    "int",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "totalordermagl": [
+    "int",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "printf_size": [
+    "int",
+    [
+      "FILE *",
+      "const struct printf_info *",
+      "const void * const *"
+    ]
+  ],
+  "printf_size_info": [
+    "int",
+    [
+      "const struct printf_info *",
+      "size_t",
+      "int *"
+    ]
+  ],
+  "recvfrom": [
+    "ssize_t",
+    [
+      "int",
+      "void *",
+      "size_t",
+      "int",
+      "struct sockaddr *",
+      "socklen_t *"
+    ]
+  ],
+  "setfsent": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "endfsent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getfsent": [
+    "struct fstab *",
+    [
+      "void"
+    ]
+  ],
+  "getfsspec": [
+    "struct fstab *",
+    [
+      "const char *"
+    ]
+  ],
+  "getfsfile": [
+    "struct fstab *",
+    [
+      "const char *"
+    ]
+  ],
+  "fgetpos": [
+    "int",
+    [
+      "FILE *",
+      "fpos_t *"
+    ]
+  ],
+  "fgetpos64": [
+    "int",
+    [
+      "FILE *",
+      "fpos64_t *"
+    ]
+  ],
+  "fsetpos": [
+    "int",
+    [
+      "FILE *",
+      "const fpos_t *"
+    ]
+  ],
+  "fsetpos64": [
+    "int",
+    [
+      "FILE *",
+      "const fpos64_t *"
+    ]
+  ],
+  "asctime": [
+    "char *",
+    [
+      "const struct tm *"
+    ]
+  ],
+  "asctime_r": [
+    "char *",
+    [
+      "const struct tm *",
+      "char *"
+    ]
+  ],
+  "ctime": [
+    "char *",
+    [
+      "const time_t *"
+    ]
+  ],
+  "ctime_r": [
+    "char *",
+    [
+      "const time_t *",
+      "char *"
+    ]
+  ],
+  "strftime": [
+    "size_t",
+    [
+      "char *",
+      "size_t",
+      "const char *",
+      "const struct tm *"
+    ]
+  ],
+  "wcsftime": [
+    "size_t",
+    [
+      "wchar_t *",
+      "size_t",
+      "const wchar_t *",
+      "const struct tm *"
+    ]
+  ],
+  "getenv": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "secure_getenv": [
+    "char *",
+    [
+      "const char *"
+    ]
+  ],
+  "putenv": [
+    "int",
+    [
+      "char *"
+    ]
+  ],
+  "setenv": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "int"
+    ]
+  ],
+  "unsetenv": [
+    "int",
+    [
+      "const char *"
+    ]
+  ],
+  "clearenv": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "getpt": [
+    "int",
+    [
+      "void"
+    ]
+  ],
+  "grantpt": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "unlockpt": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "ptsname": [
+    "char *",
+    [
+      "int"
+    ]
+  ],
+  "ptsname_r": [
+    "int",
+    [
+      "int",
+      "char *",
+      "size_t"
+    ]
+  ],
+  "div": [
+    "div_t",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "ldiv": [
+    "ldiv_t",
+    [
+      "long int",
+      "long int"
+    ]
+  ],
+  "lldiv": [
+    "lldiv_t",
+    [
+      "long long int",
+      "long long int"
+    ]
+  ],
+  "imaxdiv": [
+    "imaxdiv_t",
+    [
+      "intmax_t",
+      "intmax_t"
+    ]
+  ],
+  "__ppc_get_timebase": [
+    "uint64_t",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_get_timebase_freq": [
+    "uint64_t",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_yield": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_mdoio": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_mdoom": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_set_ppr_med": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_set_ppr_low": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_set_ppr_med_low": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_set_ppr_very_low": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "__ppc_set_ppr_med_high": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "localtime": [
+    "struct tm *",
+    [
+      "const time_t *"
+    ]
+  ],
+  "localtime_r": [
+    "struct tm *",
+    [
+      "const time_t *",
+      "struct tm *"
+    ]
+  ],
+  "gmtime": [
+    "struct tm *",
+    [
+      "const time_t *"
+    ]
+  ],
+  "gmtime_r": [
+    "struct tm *",
+    [
+      "const time_t *",
+      "struct tm *"
+    ]
+  ],
+  "mktime": [
+    "time_t",
+    [
+      "struct tm *"
+    ]
+  ],
+  "timelocal": [
+    "time_t",
+    [
+      "struct tm *"
+    ]
+  ],
+  "timegm": [
+    "time_t",
+    [
+      "struct tm *"
+    ]
+  ],
+  "getdate": [
+    "struct tm *",
+    [
+      "const char *"
+    ]
+  ],
+  "getdate_r": [
+    "int",
+    [
+      "const char *",
+      "struct tm *"
+    ]
+  ],
+  "getopt_long": [
+    "int",
+    [
+      "int",
+      "char * const *",
+      "const char *",
+      "const struct option *",
+      "int *"
+    ]
+  ],
+  "getopt_long_only": [
+    "int",
+    [
+      "int",
+      "char * const *",
+      "const char *",
+      "const struct option *",
+      "int *"
+    ]
+  ],
+  "regfree": [
+    "void",
+    [
+      "regex_t *"
+    ]
+  ],
+  "regerror": [
+    "size_t",
+    [
+      "int",
+      "const regex_t * restrict",
+      "char * restrict",
+      "size_t"
+    ]
+  ],
+  "sysctl": [
+    "int",
+    [
+      "int *",
+      "int",
+      "void *",
+      "size_t *",
+      "void *",
+      "size_t"
+    ]
+  ],
+  "backtrace": [
+    "int",
+    [
+      "void * *",
+      "int"
+    ]
+  ],
+  "backtrace_symbols": [
+    "char * *",
+    [
+      "void * const *",
+      "int"
+    ]
+  ],
+  "backtrace_symbols_fd": [
+    "void",
+    [
+      "void * const *",
+      "int",
+      "int"
+    ]
+  ],
+  "pthread_getattr_default_np": [
+    "int",
+    [
+      "pthread_attr_t *"
+    ]
+  ],
+  "pthread_setattr_default_np": [
+    "int",
+    [
+      "pthread_attr_t *"
+    ]
+  ],
+  "vscanf": [
+    "int",
+    [
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vwscanf": [
+    "int",
+    [
+      "const wchar_t *",
+      "va_list"
+    ]
+  ],
+  "vfscanf": [
+    "int",
+    [
+      "FILE *",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vfwscanf": [
+    "int",
+    [
+      "FILE *",
+      "const wchar_t *",
+      "va_list"
+    ]
+  ],
+  "vsscanf": [
+    "int",
+    [
+      "const char *",
+      "const char *",
+      "va_list"
+    ]
+  ],
+  "vswscanf": [
+    "int",
+    [
+      "const wchar_t *",
+      "const wchar_t *",
+      "va_list"
+    ]
+  ],
+  "fork": [
+    "pid_t",
+    [
+      "void"
+    ]
+  ],
+  "vfork": [
+    "pid_t",
+    [
+      "void"
+    ]
+  ],
+  "tcgetpgrp": [
+    "pid_t",
+    [
+      "int"
+    ]
+  ],
+  "tcsetpgrp": [
+    "int",
+    [
+      "int",
+      "pid_t"
+    ]
+  ],
+  "tcgetsid": [
+    "pid_t",
+    [
+      "int"
+    ]
+  ],
+  "isinf": [
+    "int",
+    [
+      "double"
+    ]
+  ],
+  "isinff": [
+    "int",
+    [
+      "float"
+    ]
+  ],
+  "isinfl": [
+    "int",
+    [
+      "long double"
+    ]
+  ],
+  "isnan": [
+    "int",
+    [
+      "double"
+    ]
+  ],
+  "isnanf": [
+    "int",
+    [
+      "float"
+    ]
+  ],
+  "isnanl": [
+    "int",
+    [
+      "long double"
+    ]
+  ],
+  "finite": [
+    "int",
+    [
+      "double"
+    ]
+  ],
+  "finitef": [
+    "int",
+    [
+      "float"
+    ]
+  ],
+  "finitel": [
+    "int",
+    [
+      "long double"
+    ]
+  ],
+  "fgetpwent": [
+    "struct passwd *",
+    [
+      "FILE *"
+    ]
+  ],
+  "fgetpwent_r": [
+    "int",
+    [
+      "FILE *",
+      "struct passwd *",
+      "char *",
+      "size_t",
+      "struct passwd * *"
+    ]
+  ],
+  "setpwent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getpwent": [
+    "struct passwd *",
+    [
+      "void"
+    ]
+  ],
+  "getpwent_r": [
+    "int",
+    [
+      "struct passwd *",
+      "char *",
+      "size_t",
+      "struct passwd * *"
+    ]
+  ],
+  "endpwent": [
+    "void",
+    [
+      "void"
+    ]
+  ],
+  "getentropy": [
+    "int",
+    [
+      "void *",
+      "size_t"
+    ]
+  ],
+  "getrandom": [
+    "ssize_t",
+    [
+      "void *",
+      "size_t",
+      "unsigned int"
+    ]
+  ],
+  "tmpfile": [
+    "FILE *",
+    [
+      "void"
+    ]
+  ],
+  "tmpfile64": [
+    "FILE *",
+    [
+      "void"
+    ]
+  ],
+  "tmpnam": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "tmpnam_r": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "tempnam": [
+    "char *",
+    [
+      "const char *",
+      "const char *"
+    ]
+  ],
+  "mktemp": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "mkstemp": [
+    "int",
+    [
+      "char *"
+    ]
+  ],
+  "mkdtemp": [
+    "char *",
+    [
+      "char *"
+    ]
+  ],
+  "mkfifo": [
+    "int",
+    [
+      "const char *",
+      "mode_t"
+    ]
+  ],
+  "getgrgid": [
+    "struct group *",
+    [
+      "gid_t"
+    ]
+  ],
+  "getgrgid_r": [
+    "int",
+    [
+      "gid_t",
+      "struct group *",
+      "char *",
+      "size_t",
+      "struct group * *"
+    ]
+  ],
+  "getgrnam": [
+    "struct group *",
+    [
+      "const char *"
+    ]
+  ],
+  "getgrnam_r": [
+    "int",
+    [
+      "const char *",
+      "struct group *",
+      "char *",
+      "size_t",
+      "struct group * *"
+    ]
+  ],
+  "dup": [
+    "int",
+    [
+      "int"
+    ]
+  ],
+  "dup2": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "shutdown": [
+    "int",
+    [
+      "int",
+      "int"
+    ]
+  ],
+  "argp_help": [
+    "void",
+    [
+      "const struct argp *",
+      "FILE *",
+      "unsigned",
+      "char *"
+    ]
+  ],
+  "mcheck": [
+    "int",
+    [
+      "void ( * abortfn )  ( enum mcheck_status status"
+    ]
+  ],
+  "mprobe": [
+    "enum mcheck_status",
+    [
+      "void *"
+    ]
+  ],
+  "glob": [
+    "int",
+    [
+      "const char *",
+      "int",
+      "int ( * errfunc )  ( const char *",
+      "int error-code",
+      "glob_t *"
+    ]
+  ],
+  "glob64": [
+    "int",
+    [
+      "const char *",
+      "int",
+      "int ( * errfunc )  ( const char *",
+      "int error-code",
+      "glob64_t *"
+    ]
+  ],
+  "catopen": [
+    "nl_catd",
+    [
+      "const char *",
+      "int"
+    ]
+  ],
+  "catgets": [
+    "char *",
+    [
+      "nl_catd",
+      "int",
+      "int",
+      "const char *"
+    ]
+  ],
+  "catclose": [
+    "int",
+    [
+      "nl_catd"
+    ]
+  ],
+  "asin": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "asinf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "asinl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "acos": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "acosf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "acosl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "atan": [
+    "double",
+    [
+      "double"
+    ]
+  ],
+  "atanf": [
+    "float",
+    [
+      "float"
+    ]
+  ],
+  "atanl": [
+    "long double",
+    [
+      "long double"
+    ]
+  ],
+  "atan2": [
+    "double",
+    [
+      "double",
+      "double"
+    ]
+  ],
+  "atan2f": [
+    "float",
+    [
+      "float",
+      "float"
+    ]
+  ],
+  "atan2l": [
+    "long double",
+    [
+      "long double",
+      "long double"
+    ]
+  ],
+  "casin": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "casinf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "casinl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "cacos": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "cacosf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "cacosl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "catan": [
+    "complex double",
+    [
+      "complex double"
+    ]
+  ],
+  "catanf": [
+    "complex float",
+    [
+      "complex float"
+    ]
+  ],
+  "catanl": [
+    "complex long double",
+    [
+      "complex long double"
+    ]
+  ],
+  "sysconf": [
+    "long int",
+    [
+      "int"
+    ]
+  ],
+  "seteuid": [
+    "int",
+    [
+      "uid_t"
+    ]
+  ],
+  "setuid": [
+    "int",
+    [
+      "uid_t"
+    ]
+  ],
+  "setreuid": [
+    "int",
+    [
+      "uid_t",
+      "uid_t"
+    ]
+  ],
+  "fwide": [
+    "int",
+    [
+      "FILE *",
+      "int"
+    ]
+  ],
+  "sigprocmask": [
+    "int",
+    [
+      "int",
+      "const sigset_t * restrict",
+      "sigset_t * restrict"
+    ]
+  ],
+  "aio_fsync": [
+    "int",
+    [
+      "int",
+      "struct aiocb *"
+    ]
+  ],
+  "aio_fsync64": [
+    "int",
+    [
+      "int",
+      "struct aiocb64 *"
+    ]
+  ],
+  "aio_suspend": [
+    "int",
+    [
+      "const struct aiocb * const",
+      "int",
+      "const struct timespec *"
+    ]
+  ],
+  "aio_suspend64": [
+    "int",
+    [
+      "const struct aiocb64 * const",
+      "int",
+      "const struct timespec *"
+    ]
+  ],
+  "setitimer": [
+    "int",
+    [
+      "int",
+      "const struct itimerval *",
+      "struct itimerval *"
+    ]
+  ],
+  "getitimer": [
+    "int",
+    [
+      "int",
+      "struct itimerval *"
+    ]
+  ],
+  "alarm": [
+    "unsigned int",
+    [
+      "unsigned int"
+    ]
+  ]
+}

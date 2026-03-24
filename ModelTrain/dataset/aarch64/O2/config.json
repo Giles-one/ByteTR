@@ -1,0 +1,29 @@
+{
+  "id2path": {
+    "0": "dataset/aarch64/O2/label/i8.jsonl",
+    "1": "dataset/aarch64/O2/label/u8.jsonl",
+    "2": "dataset/aarch64/O2/label/i16.jsonl",
+    "3": "dataset/aarch64/O2/label/u16.jsonl",
+    "4": "dataset/aarch64/O2/label/i32.jsonl",
+    "5": "dataset/aarch64/O2/label/u32.jsonl",
+    "6": "dataset/aarch64/O2/label/i64.jsonl",
+    "7": "dataset/aarch64/O2/label/u64.jsonl",
+    "8": "dataset/aarch64/O2/label/float.jsonl",
+    "9": "dataset/aarch64/O2/label/double.jsonl",
+    "10": "dataset/aarch64/O2/label/struct.jsonl",
+    "11": "dataset/aarch64/O2/label/array.jsonl",
+    "12": "dataset/aarch64/O2/label/i8*.jsonl",
+    "13": "dataset/aarch64/O2/label/u8*.jsonl",
+    "14": "dataset/aarch64/O2/label/i16*.jsonl",
+    "15": "dataset/aarch64/O2/label/u16*.jsonl",
+    "16": "dataset/aarch64/O2/label/i32*.jsonl",
+    "17": "dataset/aarch64/O2/label/u32*.jsonl",
+    "18": "dataset/aarch64/O2/label/i64*.jsonl",
+    "19": "dataset/aarch64/O2/label/u64*.jsonl",
+    "20": "dataset/aarch64/O2/label/float*.jsonl",
+    "21": "dataset/aarch64/O2/label/double*.jsonl",
+    "22": "dataset/aarch64/O2/label/struct*.jsonl",
+    "23": "dataset/aarch64/O2/label/void*.jsonl",
+    "24": "dataset/aarch64/O2/label/unknown.jsonl"
+  }
+}

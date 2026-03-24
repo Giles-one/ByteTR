@@ -1,0 +1,29 @@
+{
+  "id2path": {
+    "0": "dataset/x86_32/O3/label/i8.jsonl",
+    "1": "dataset/x86_32/O3/label/u8.jsonl",
+    "2": "dataset/x86_32/O3/label/i16.jsonl",
+    "3": "dataset/x86_32/O3/label/u16.jsonl",
+    "4": "dataset/x86_32/O3/label/i32.jsonl",
+    "5": "dataset/x86_32/O3/label/u32.jsonl",
+    "6": "dataset/x86_32/O3/label/i64.jsonl",
+    "7": "dataset/x86_32/O3/label/u64.jsonl",
+    "8": "dataset/x86_32/O3/label/float.jsonl",
+    "9": "dataset/x86_32/O3/label/double.jsonl",
+    "10": "dataset/x86_32/O3/label/struct.jsonl",
+    "11": "dataset/x86_32/O3/label/array.jsonl",
+    "12": "dataset/x86_32/O3/label/i8*.jsonl",
+    "13": "dataset/x86_32/O3/label/u8*.jsonl",
+    "14": "dataset/x86_32/O3/label/i16*.jsonl",
+    "15": "dataset/x86_32/O3/label/u16*.jsonl",
+    "16": "dataset/x86_32/O3/label/i32*.jsonl",
+    "17": "dataset/x86_32/O3/label/u32*.jsonl",
+    "18": "dataset/x86_32/O3/label/i64*.jsonl",
+    "19": "dataset/x86_32/O3/label/u64*.jsonl",
+    "20": "dataset/x86_32/O3/label/float*.jsonl",
+    "21": "dataset/x86_32/O3/label/double*.jsonl",
+    "22": "dataset/x86_32/O3/label/struct*.jsonl",
+    "23": "dataset/x86_32/O3/label/void*.jsonl",
+    "24": "dataset/x86_32/O3/label/unknown.jsonl"
+  }
+}

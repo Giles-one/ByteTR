@@ -1,0 +1,29 @@
+{
+  "id2path": {
+    "0": "dataset/mips/O0/label/i8.jsonl",
+    "1": "dataset/mips/O0/label/u8.jsonl",
+    "2": "dataset/mips/O0/label/i16.jsonl",
+    "3": "dataset/mips/O0/label/u16.jsonl",
+    "4": "dataset/mips/O0/label/i32.jsonl",
+    "5": "dataset/mips/O0/label/u32.jsonl",
+    "6": "dataset/mips/O0/label/i64.jsonl",
+    "7": "dataset/mips/O0/label/u64.jsonl",
+    "8": "dataset/mips/O0/label/float.jsonl",
+    "9": "dataset/mips/O0/label/double.jsonl",
+    "10": "dataset/mips/O0/label/struct.jsonl",
+    "11": "dataset/mips/O0/label/array.jsonl",
+    "12": "dataset/mips/O0/label/i8*.jsonl",
+    "13": "dataset/mips/O0/label/u8*.jsonl",
+    "14": "dataset/mips/O0/label/i16*.jsonl",
+    "15": "dataset/mips/O0/label/u16*.jsonl",
+    "16": "dataset/mips/O0/label/i32*.jsonl",
+    "17": "dataset/mips/O0/label/u32*.jsonl",
+    "18": "dataset/mips/O0/label/i64*.jsonl",
+    "19": "dataset/mips/O0/label/u64*.jsonl",
+    "20": "dataset/mips/O0/label/float*.jsonl",
+    "21": "dataset/mips/O0/label/double*.jsonl",
+    "22": "dataset/mips/O0/label/struct*.jsonl",
+    "23": "dataset/mips/O0/label/void*.jsonl",
+    "24": "dataset/mips/O0/label/unknown.jsonl"
+  }
+}
