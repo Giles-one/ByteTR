@@ -96,3 +96,7 @@ $ CUDA_VISIBLE_DEVICES=0 python train.py \
     --layer_GNN 3 \
     --checkpoint_dir checkpoints
 ```
+
+#### Note
+
+To implement the export of DWARF types as a type chain, I modified elftools/dwarf/datatype_cpp.py. Additionally, to support the System V calling convention for ELF, I modified /miasm/arch/{x86, aarch64, mips32}/lifter_model_call.py. For specific details, please refer to [here](BinaryProcessing/patch).
