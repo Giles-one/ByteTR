@@ -2108,8 +2108,7 @@ def main(args):
             ELFList.append(filePath)
     
     logger.info('Collect ELF file of ** %d **' % (len(ELFList)))
-    speedup(ELFList[:5000])
-    # worker('/archive/lgy/TYDA/x86_32/O0/iso_8859_4.so.elf')
+    speedup(ELFList)
 
 if __name__ == '__main__':
     args = argParse()

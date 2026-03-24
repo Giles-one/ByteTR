@@ -333,7 +333,7 @@ def main(args):
             })
 
     logger.info('Collect ELF file of ** %d **' % (len(ELFList)))
-    speedup(ELFList[:5000])
+    speedup(ELFList)
 
 if __name__ == '__main__':
     args = argParse(argv)
